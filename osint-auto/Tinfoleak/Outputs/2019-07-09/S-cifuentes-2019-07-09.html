@@ -1,0 +1,1718 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic,300italic,300' rel='stylesheet' type='text/css'>
+<link href="style.css" rel='stylesheet' type='text/css'>
+
+<title>Tinfoleak Report</title>
+
+</head>
+
+<body>
+<!--cabecera-->
+    <div class="header">
+		<p class="datos_personales"><a href="https://twitter.com/VAguileraDiaz" target="_blank">@VAguileraDiaz</a> <a href="mailto:vaguilera@isecauditors.com" target="_blank">vaguilera@isecauditors.com</a> <a href="http://www.isecauditors.com" target="_blank">Internet Security Auditors</a> v2.1 [SHA2017 Edition]</p>
+	</div>
+    <!--#end cabecera-->
+    <!--contenido-->
+<a id="top" name="top"></a>
+<div id="container">    
+    <div id="content">
+    	<div id="title">
+        	<!--<h4>Tinfoleak v2.1 [SHA2017 Edition]</h4>-->
+            <img src="img/tinfoleak_logo.png" width="230" class="logo"/>
+        </div>
+    	<div id="foto_perfil">
+        	<a href="http://pbs.twimg.com/profile_images/824678874395115524/tHn3lVpH_400x400.jpg" target="_blank"><img class="perfil" src="http://pbs.twimg.com/profile_images/824678874395115524/tHn3lVpH_400x400.jpg" target="_blank" alt="usuario" width="100" height="100"></a><br />
+            <h1>tinfoleak</h1>
+             <p class="descripcion">The most complete open-source tool for Twitter intelligence analysis. #OSINT #SOCMINT #socialmedia</span></p>
+             
+             <center><p class="datos_perfil">Followers: <span><a href="http://www.twitter.com/tinfoleak/followers" target="_blank">252</a></span> | Following: <span><a href="http://www.twitter.com/tinfoleak/following" target="_blank">0</a></span> | Likes: <span><a href="http://www.twitter.com/tinfoleak/likes" target="_blank">48</a></span> <br /> Tweets: <span>55 (0.03 tweets/day)</span></p></center>
+             
+        </div><!--#end foto_perfil-->
+        
+        <div id="datos_usuario">
+            <div class="datos1">
+              <p class="datos_perfil">Screen Name: <a href="http://www.twitter.com/tinfoleak" target="_blank">tinfoleak</a></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Account Created at: <span>09/13/2013</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Verified: <span>False</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Twitter ID: <span>1861510189</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+	                    	<p class="datos_perfil">URL: <a href="http://www.vicenteaguileradiaz.com/tools" target="_blank">http://www.vicenteaguileradiaz.com/tools</a></p>
+	                <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Location: <span>Earth</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Time Zone: <span>None</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Geo enabled: <span>False</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Listed count: <span>6</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Language: <span>None</span></p>
+            </div>
+
+      </div>
+    </div><!--#end content-->
+    
+      <div id="datos" width="970"> <!--# menu-->
+        <div id="client_apps">
+            <div class="one_third"> 
+            <center>
+            <ul class="button">
+				<li><a href="#client_apps">Apps</a></li>
+				<li><a href="#social">Social ID</a></li>
+				<li><a href="#hashtags">Hashtags</a></li>
+				<li><a href="#user_mentions">Mentions</a></li>
+        <li><a href="#favourites">Likes</a></li>
+				<li><a href="#tweets">Tweets</a></li>
+        <li><a href="#topwords">Words Freq</a></li>
+				<li><a href="#metadata">Metadata</a></li>
+				<li><a href="#media">Media</a></li>
+				<li><a href="#geo">Geo</a></li>
+				<li><a href="#search">Search</a></li>
+        <li><a href="#conversation">Conv</a></li>
+			</ul>
+        </center>
+        </div>
+
+       </div> <!--# end menu-->
+
+        <div id="datos">
+
+            <div id="client_apps">
+                <a id="client_args" name="client_args"></a>
+                <h3>Tinfoleak Arguments</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+
+                <table class="client_app" width="970" border="0">
+                    <tr bgcolor="1c75bc">
+                      <td height="25"><p><font color="white">ARGUMENTS</font></p></td>
+                      <td><p><font color="white">OPERATING SYSTEM</font></p></td>
+                    </tr>
+                    <tr>
+                      <td><p class="table_results">[&#39;./tinfoleak.py&#39;, &#39;-u&#39;, &#39;urjc&#39;, &#39;-t&#39;, &#39;500&#39;, &#39;-i&#39;, &#39;--sdate&#39;, &#39;2019-07-02&#39;, &#39;--edate&#39;, &#39;2019-07-09&#39;, &#39;--find&#39;, &#39;[+]cifuentes&#39;, &#39;--search&#39;, &#39;-o&#39;, &#39;S-cifuentes-2019-07-09.html&#39;]</p></td>
+                      <td><p class="table_results">posix - linux2</p></td>
+                    </tr>
+                </table>
+
+            </div><!--#end client_apps-->
+
+
+            <div id="client_apps">
+                <a id="client_apps" name="client_apps"></a>
+                <h3>Client Applications</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end client_apps-->
+
+            <!--social table-->
+             <div id="social_networks">
+                <a id="social" name="social"></a>
+                <h3>Social Networks</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                <br>
+                  
+            </div><!--#end social_networks-->
+
+            <!--hashtags table-->
+             <div id="hashtags">
+                <a id="hashtags" name="hashtags"></a>
+                <h3>Hashtags</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                
+                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                <br>
+                  
+                  </div><!--#end hashtags table--> 
+
+
+
+            <!--mentions table-->
+            <div id="client_apps">
+                <a id="user_mentions" name="user_mentions"></a>
+                <h3>User Mentions</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                                  </div><!--#end mentions table--> 
+
+
+            <!--favourites table-->            
+            <div id="favourites">
+            <a id="favourites" name="favourites"></a>
+                <h3>Likes</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                                 <br><br>
+            </div><!--#end favourites table--> 
+
+
+            <!--tweets table-->            
+            <div id="client_apps">
+            <a id="tweets" name="tweets"></a>
+                <h3>Tweets</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end tweets table--> 
+
+
+            <!--top words table-->            
+            <div id="client_apps">
+            <a id="topwords" name="topwords"></a>
+                <h3>Words Most used</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end tweets table--> 
+
+            
+            <!--metadata table-->            
+            <div id="client_apps">
+                <a id="metadata" name="media"></a>
+                <h3>METADATA </h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end images table--> 
+
+              <!--media table-->            
+            <div id="client_apps">
+                <a id="media" name="media"></a>
+                <h3>User images and videos</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end media table--> 
+            
+            <!--geo table-->            
+            <div id="client_apps">
+            <a id="geo" name="geo"></a>
+                <h3>Geolocation Information</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end geo table-->
+
+
+            <!--geo table-->            
+            <div id="client_apps">
+            <a id="search" name="search"></a>
+                <h3>Advanced Search</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                
+                <h2>Advanced Search</h2>
+                
+                <table class="client_app" width="970" border="0">
+                    <tr bgcolor="1c75bc">
+                      <td height="25"><p align="center"><font color="white">DATE</font></p></td>
+                      <td><p align="center"><font color="white">TIME</font></p></td>
+                      <td colspan="5"><p><font color="white">TWEET</font></p></td>
+                      <td><p align="center"><font color="white">MEDIA</font></p></td>
+                      <td colspan="2"><p><font color="white">APPLICATION</font></p></td>
+                      <td><p align="center"><font color="white">PROFILE IMG</font></p></td>
+                      <td><p align="center"><font color="white">USER</font></p></td>
+                    </tr>
+                                        <tr>
+                      <td align="center"><p class="table_results">07/08/2019</p></td>
+                      <td align="center"><p class="table_results">17:33:09</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/ailu_cifuentes/status/1148283895248543744" target="_blank">RT @thinrunways: Natalia Dyer and Charlie Heaton’s relationship is everything I want and aspire to be https://t.co/xS1araglH3</a></td>
+                                                                  <td align="center"><p class="table_results">
+                          <a href="http://pbs.twimg.com/media/D-4_Q96XkAc4No6.jpg" target="_blank"><img src="http://pbs.twimg.com/media/D-4_Q96XkAc4No6.jpg" width=100 height=100 border="1"></a>
+                                                                  </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1145389916567871490/9jaG4LjM.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1145389916567871490/9jaG4LjM.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/ailu_cifuentes" target="_blank">@ailu_cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/08/2019</p></td>
+                      <td align="center"><p class="table_results">13:55:48</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/and_goldstein/status/1148229197518839809" target="_blank">RT @spanishwarbot: Segunda semana de Febrero. Año 2023.
+La Zowi ha asesinado a Cristina Cifuentes.
+141 famosos restantes.
+#FamousSpanishWar…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1082078527225319429/Pmd0AGI3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1082078527225319429/Pmd0AGI3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/and_goldstein" target="_blank">@and_goldstein</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/08/2019</p></td>
+                      <td align="center"><p class="table_results">12:09:17</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/SimonEdwardsSAF/status/1148202393772974080" target="_blank">@ianmmcnaughton Díaz would get one automatically as a Colombia international and Campana had a Spanish passport now… https://t.co/QeF2cRamyZ</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/963834931112751104/flsPg9gc.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/963834931112751104/flsPg9gc.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/SimonEdwardsSAF" target="_blank">@SimonEdwardsSAF</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/08/2019</p></td>
+                      <td align="center"><p class="table_results">11:15:41</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Jamie67_/status/1148188901783347200" target="_blank">Cifuentes, 2 RB&#39;s and a CB and that&#39;ll do me this summer</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web App</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1133457890155618304/0HpmOz53.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1133457890155618304/0HpmOz53.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Jamie67_" target="_blank">@Jamie67_</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/08/2019</p></td>
+                      <td align="center"><p class="table_results">09:58:59</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/OwenJamesBrown/status/1148169599982157824" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1079767156122963968/ssRo4Qn7.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1079767156122963968/ssRo4Qn7.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/OwenJamesBrown" target="_blank">@OwenJamesBrown</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/08/2019</p></td>
+                      <td align="center"><p class="table_results">04:47:14</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1148091148457664512" target="_blank">RT @BienSur_JeTaime: When you get hired and they find out you aren&#39;t actually fluent in 3 languages https://t.co/m5YnVdRura</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/08/2019</p></td>
+                      <td align="center"><p class="table_results">01:35:37</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1148042922715242496" target="_blank">RT @brendatellus: Plastic clear lining inside and decorative cloth lining on the outside. https://t.co/fS8Ea3YZFB</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/08/2019</p></td>
+                      <td align="center"><p class="table_results">01:07:44</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/MartinBoyle88/status/1148035907188142080" target="_blank">@Celtic1888News Cifuentes and castagne/Stacey/gumny</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1133128328754417672/FX5mBJaX.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1133128328754417672/FX5mBJaX.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/MartinBoyle88" target="_blank">@MartinBoyle88</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/07/2019</p></td>
+                      <td align="center"><p class="table_results">21:56:44</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/tunescfc/status/1147987842599137281" target="_blank">@ConorM67_ Who the fuck is Cifuentes and Gumny?</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1105597394786369536/yZDqOMcI.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1105597394786369536/yZDqOMcI.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/tunescfc" target="_blank">@tunescfc</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/07/2019</p></td>
+                      <td align="center"><p class="table_results">21:37:10</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/ConorM67_/status/1147982915504148481" target="_blank">We want guys like Gumny and Cifuentes but this is what we’ll actually end up with https://t.co/ucFFjcMMWd</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1092073308034613248/BuLkLLy_.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1092073308034613248/BuLkLLy_.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/ConorM67_" target="_blank">@ConorM67_</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/07/2019</p></td>
+                      <td align="center"><p class="table_results">21:27:09</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/juliettetorrez/status/1147980394593001472" target="_blank">RT @MartaDhanis: #ElChapo: One more bombshell before jury sits on the case. In unsealed docs, we learn that several witness say defendant h…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPad</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1136251310/image.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1136251310/image.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/juliettetorrez" target="_blank">@juliettetorrez</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/07/2019</p></td>
+                      <td align="center"><p class="table_results">17:47:45</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/ross_cfc_/status/1147925183950442496" target="_blank">@Celtic1888News Stacey and Cifuentes</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1147295719197421569/X6fhYgu7.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1147295719197421569/X6fhYgu7.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/ross_cfc_" target="_blank">@ross_cfc_</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/07/2019</p></td>
+                      <td align="center"><p class="table_results">17:46:22</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Steff_Cifuentes/status/1147924832161419264" target="_blank">RT @BarackObama: Yes! Fourth star. Back to back. Congrats to the record breakers on the @USWNT, an incredible team that’s always pushing th…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1144032513993531392/-StzQLgZ.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1144032513993531392/-StzQLgZ.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Steff_Cifuentes" target="_blank">@Steff_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/07/2019</p></td>
+                      <td align="center"><p class="table_results">16:31:45</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1147906056422604803" target="_blank">“He brought planking back” and “I’m out” had me dead 😂 https://t.co/2cYptxF7uJ</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/07/2019</p></td>
+                      <td align="center"><p class="table_results">09:43:26</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Steff_Cifuentes/status/1147803297824165893" target="_blank">RT @ABC: Actor Cameron Boyce, known for his roles in the Disney Channel franchise &#34;Descendants&#34; and the TV show &#34;Jessie,&#34; has died. He was…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1144032513993531392/-StzQLgZ.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1144032513993531392/-StzQLgZ.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Steff_Cifuentes" target="_blank">@Steff_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/07/2019</p></td>
+                      <td align="center"><p class="table_results">06:01:00</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/7thElementFilms/status/1147747321033240576" target="_blank">RT @ManCityMEN: He was brilliant in the U-20 World Cup and could be coming to the Etihad #mcfc https://t.co/aGZLwxQYfP</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1148161697829588994/Jq5WcYQ9.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1148161697829588994/Jq5WcYQ9.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/7thElementFilms" target="_blank">@7thElementFilms</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/07/2019</p></td>
+                      <td align="center"><p class="table_results">02:05:37</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/oilboy2008/status/1147688086136119296" target="_blank">https://t.co/IXPsNARsmU
+Sign for either were the same thing 
+😳😳😳😳😳😳😳😳😳😳😳😳😳</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1128014689953304576/9PM9PbwD.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1128014689953304576/9PM9PbwD.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/oilboy2008" target="_blank">@oilboy2008</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">20:00:00</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/ManCityMEN/status/1147596075043368960" target="_blank">He was brilliant in the U-20 World Cup and could be coming to the Etihad #mcfc https://t.co/aGZLwxQYfP</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">TweetDeck</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1045658608090927104/jYyX-ySz.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1045658608090927104/jYyX-ySz.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/ManCityMEN" target="_blank">@ManCityMEN</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">19:55:19</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/hoopslad67/status/1147594899564507137" target="_blank">@hunskelper_____ Just suggest that Morelos is fat and they can’t sell him. They come crawling out of the woodwork!… https://t.co/Xs5CWZbfg7</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1101860206147969026/tRXXU8J-.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1101860206147969026/tRXXU8J-.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/hoopslad67" target="_blank">@hoopslad67</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">18:40:00</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/ManCityMEN/status/1147575942186848256" target="_blank">It&#39;s between City and one other club for his signature #mcfc https://t.co/aGZLwxzmRf</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">TweetDeck</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1045658608090927104/jYyX-ySz.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1045658608090927104/jYyX-ySz.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/ManCityMEN" target="_blank">@ManCityMEN</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">14:06:06</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/greg_c92/status/1147507016329519107" target="_blank">RT @Tam_Selleck: I have bought my ticket for the José Cifuentes hype train. If we can pull this off, then I&#39;ll get the GoFundMe campaign up…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web App</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1056223051900174337/ApaAPLw0.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1056223051900174337/ApaAPLw0.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/greg_c92" target="_blank">@greg_c92</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">14:05:15</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/cdmurphy1980/status/1147506799882510336" target="_blank">RT @Tam_Selleck: I have bought my ticket for the José Cifuentes hype train. If we can pull this off, then I&#39;ll get the GoFundMe campaign up…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/556504716310761472/lp51tano.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/556504716310761472/lp51tano.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/cdmurphy1980" target="_blank">@cdmurphy1980</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">12:17:55</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/BhoyHero/status/1147479788522803200" target="_blank">RT @Tam_Selleck: I have bought my ticket for the José Cifuentes hype train. If we can pull this off, then I&#39;ll get the GoFundMe campaign up…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1123674193638432770/Qgruz5CR.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1123674193638432770/Qgruz5CR.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/BhoyHero" target="_blank">@BhoyHero</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">11:56:58</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/moggy1888/status/1147474516333006849" target="_blank">RT @Tam_Selleck: I have bought my ticket for the José Cifuentes hype train. If we can pull this off, then I&#39;ll get the GoFundMe campaign up…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1144679089980215296/6W88Upj7.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1144679089980215296/6W88Upj7.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/moggy1888" target="_blank">@moggy1888</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">11:56:46</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/harrybhoy92/status/1147474466416594949" target="_blank">RT @Tam_Selleck: I have bought my ticket for the José Cifuentes hype train. If we can pull this off, then I&#39;ll get the GoFundMe campaign up…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1147639781289091072/haztcESe.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1147639781289091072/haztcESe.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/harrybhoy92" target="_blank">@harrybhoy92</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">11:29:01</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Stranafeley/status/1147467484599136256" target="_blank">RT @Tam_Selleck: I have bought my ticket for the José Cifuentes hype train. If we can pull this off, then I&#39;ll get the GoFundMe campaign up…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1120974312129822720/sOJanTbs.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1120974312129822720/sOJanTbs.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Stranafeley" target="_blank">@Stranafeley</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">11:16:46</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Teresab1977/status/1147464399302660098" target="_blank">RT @Tam_Selleck: I have bought my ticket for the José Cifuentes hype train. If we can pull this off, then I&#39;ll get the GoFundMe campaign up…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1101430988327002112/z_9A_0ff.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1101430988327002112/z_9A_0ff.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Teresab1977" target="_blank">@Teresab1977</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">11:15:30</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Paddy_McHugh_67/status/1147464080837566464" target="_blank">RT @Tam_Selleck: I have bought my ticket for the José Cifuentes hype train. If we can pull this off, then I&#39;ll get the GoFundMe campaign up…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1140214636282896385/H7jq5r3-.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1140214636282896385/H7jq5r3-.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Paddy_McHugh_67" target="_blank">@Paddy_McHugh_67</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">11:10:01</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Tam_Selleck/status/1147462700991164416" target="_blank">I have bought my ticket for the José Cifuentes hype train. If we can pull this off, then I&#39;ll get the GoFundMe camp… https://t.co/4jyVYRztRp</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1083769667100000257/KMTp0a-U.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1083769667100000257/KMTp0a-U.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Tam_Selleck" target="_blank">@Tam_Selleck</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">11:06:15</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/WorldFootballi/status/1147461753317593088" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/594198124798816257/lDbQc_Ev.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/594198124798816257/lDbQc_Ev.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/WorldFootballi" target="_blank">@WorldFootballi</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">10:13:11</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/michealhill82/status/1147448398217449472" target="_blank">@Tim_Vickery what’s the opinion on cifuentes and the likelihood of him joining Celtic?</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/485151229778329600/MiplGjpD.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/485151229778329600/MiplGjpD.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/michealhill82" target="_blank">@michealhill82</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">09:27:57</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/yahmpy/status/1147437017585856513" target="_blank">Ntcham threw a moody because his boy Dembele forced his way out and got a deal, figures he can do the same. 
+
+Club… https://t.co/yuwoAao76r</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1142402461598199814/ZMV4PoJO.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1142402461598199814/ZMV4PoJO.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/yahmpy" target="_blank">@yahmpy</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">06:59:46</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/tootingtims/status/1147399722640056320" target="_blank">@Celtic_FR @Celtic_Vines If this is true, make him available, great player when he’s on his game, but if he doesn’t… https://t.co/JLn9MTdoUX</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/709801003575599105/hLN0GxnJ.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/709801003575599105/hLN0GxnJ.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/tootingtims" target="_blank">@tootingtims</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">06:31:48</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/cifuentes_alejo/status/1147392685906497536" target="_blank">RT @michaelgrange: It has been an incredible 12 months. Leonard was traded here; provided a playoff performance unlike any other and a cham…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/929039665805643776/47D0CFvk.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/929039665805643776/47D0CFvk.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/cifuentes_alejo" target="_blank">@cifuentes_alejo</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">05:50:00</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/heraldscotland/status/1147382165551890432" target="_blank">Scottish transfer news: Celtic target Cifuentes to choose between Hoops and Man City | Rangers midfielder McCrorie… https://t.co/Fa5wkoK6YQ</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">TweetDeck</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1090158746964316161/I8JHF-NE.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1090158746964316161/I8JHF-NE.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/heraldscotland" target="_blank">@heraldscotland</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/06/2019</p></td>
+                      <td align="center"><p class="table_results">02:17:39</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Tata_Cifuentes/status/1147328726872526848" target="_blank">RT @Natalia24457904: I don&#39;t trust myself when I&#39;m around you @jonasbrothers and I need find a place where happiness begins so... come to C…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/535788533210820608/vt-xoAdZ.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/535788533210820608/vt-xoAdZ.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Tata_Cifuentes" target="_blank">@Tata_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">23:35:42</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/iRangersApp/status/1147287971248463872" target="_blank">Evening Times: Scottish transfer news: Rangers ace Ross McCrorie joins Portsmouth | Celtic target Cifuentes to choo… https://t.co/A6ENlixPXb</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">FootballNews365</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1053224094257344513/NOc1lfcA.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1053224094257344513/NOc1lfcA.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/iRangersApp" target="_blank">@iRangersApp</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">22:33:46</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/CarolinesCoffee/status/1147272383792857088" target="_blank">Meet Rosalba Cifuentes Tovia from mayanharvestcoffee holding the coffee she exports from Bella Vista, Chiapas, Mexi… https://t.co/n4iasgbStV</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Instagram</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/378800000516318526/7933bfa7d59cc13e59c604ec8e0cae4c.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/378800000516318526/7933bfa7d59cc13e59c604ec8e0cae4c.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/CarolinesCoffee" target="_blank">@CarolinesCoffee</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">22:29:27</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/jakebrown_1994/status/1147271297971425287" target="_blank">Beg we sign cifuentes, even if he goes city first and they loan him to us for 2 seasons like arzani im happy 👀</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1110233523854675968/Ye0-nENm.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1110233523854675968/Ye0-nENm.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/jakebrown_1994" target="_blank">@jakebrown_1994</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">22:20:38</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/AviationBlue/status/1147269080866598912" target="_blank">RT @AviationBlue: MAN CITY LIVE VLOG 16:00 - Soares/Guerreiro/LFC Bingo/Sandler/Nico/Cifuentes
+https://t.co/1vYEXl0BOX
+And if you like bisc…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/997194879464751104/HZL2jGSa.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/997194879464751104/HZL2jGSa.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/AviationBlue" target="_blank">@AviationBlue</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">22:05:42</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/footy90com/status/1147265323164426240" target="_blank">Jose #Cifuentes makes plans clear amid £2.5m Celtic and Manchester City links
+#ManCity 🏴󠁧󠁢󠁥󠁮󠁧󠁿 #Premier_League 
+https://t.co/h1IuR1giKZ</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">footy90.com - News</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1111182734653825025/Tlrplqmu.png" target="_blank"><img src="https://pbs.twimg.com/profile_images/1111182734653825025/Tlrplqmu.png" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/footy90com" target="_blank">@footy90com</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">21:49:44</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1147261305319022593" target="_blank">RT @ThyArtIsMemes: Oh thank god, Netflix has a show where they showed a girl kill herself in her bath tub and another kid gets sodomized by…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">19:53:41</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/SimonEdwardsSAF/status/1147232099130384384" target="_blank">@Gav300879 @TheBhoyWray A move to Celtic would be a bit of a shock for Cifuentes but he seems like a level headed,… https://t.co/iGGzFnJj0y</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/963834931112751104/flsPg9gc.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/963834931112751104/flsPg9gc.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/SimonEdwardsSAF" target="_blank">@SimonEdwardsSAF</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">19:52:43</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/CelticItk/status/1147231854560534530" target="_blank">Ecuadorian u20 World Cup player, Jose Cifuentes is a player linked with Celtic and the club may make a move for the… https://t.co/8rdqv1TUTp</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1135123074951589888/brnXbXUw.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1135123074951589888/brnXbXUw.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/CelticItk" target="_blank">@CelticItk</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">19:23:36</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/SimonEdwardsSAF/status/1147224528990494720" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/963834931112751104/flsPg9gc.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/963834931112751104/flsPg9gc.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/SimonEdwardsSAF" target="_blank">@SimonEdwardsSAF</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">19:16:47</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/seanjmcginlay/status/1147222813440446465" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1132401574612021248/LT3sfwoN.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1132401574612021248/LT3sfwoN.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/seanjmcginlay" target="_blank">@seanjmcginlay</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">19:07:05</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/tomrobbo89/status/1147220372489719808" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/3046907948/b3b56218725f705d9812a7246e1eef5f.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/3046907948/b3b56218725f705d9812a7246e1eef5f.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/tomrobbo89" target="_blank">@tomrobbo89</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">17:46:24</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1147200067398524928" target="_blank">RT @PhilippineStar: LOOK: This cute doggo attempts to high five himself out of trouble after a guard caught him running around without a le…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">17:31:15</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Steff_Cifuentes/status/1147196255690321920" target="_blank">RT @FCBarcelona: 🙌 Go out there and have fun, Frenkie!
+💙❤️ @dejongfrenkie21
+ https://t.co/GSo5VBKLLB</a></td>
+                                                                  <td align="center"><p class="table_results">
+                          <a href="http://pbs.twimg.com/media/D-uoWZVW4AA-oUn.jpg" target="_blank"><img src="http://pbs.twimg.com/media/D-uoWZVW4AA-oUn.jpg" width=100 height=100 border="1"></a>
+                                                                  </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1144032513993531392/-StzQLgZ.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1144032513993531392/-StzQLgZ.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Steff_Cifuentes" target="_blank">@Steff_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">17:29:20</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1147195770724073473" target="_blank">And now I can’t unsee it https://t.co/CceIzTZHUu</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">17:08:00</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/DieterGucht/status/1147190402426003456" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1119649800704675841/507UfRWa.png" target="_blank"><img src="https://pbs.twimg.com/profile_images/1119649800704675841/507UfRWa.png" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/DieterGucht" target="_blank">@DieterGucht</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">17:07:17</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/IACG_IV/status/1147190224331726848" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1093010589453045760/ltaJmXxx.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1093010589453045760/ltaJmXxx.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/IACG_IV" target="_blank">@IACG_IV</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">16:58:24</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/JDNalton/status/1147187986704084994" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1125142195948937218/R9iZdhBF.png" target="_blank"><img src="https://pbs.twimg.com/profile_images/1125142195948937218/R9iZdhBF.png" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/JDNalton" target="_blank">@JDNalton</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">16:44:54</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Footballstewart/status/1147184590504824832" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1008526442785886209/7ggQNnvM.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1008526442785886209/7ggQNnvM.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Footballstewart" target="_blank">@Footballstewart</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">16:42:17</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/GoodKidManCity/status/1147183931386675201" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Tweetlogix</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/953088872203849728/warTyCas.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/953088872203849728/warTyCas.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/GoodKidManCity" target="_blank">@GoodKidManCity</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">16:40:51</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/AviationBlue/status/1147183569309224962" target="_blank">MAN CITY LIVE VLOG 16:00 - Soares/Guerreiro/LFC Bingo/Sandler/Nico/Cifuentes
+https://t.co/1vYEXl0BOX
+And if you lik… https://t.co/WfHQ6GGtAF</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/997194879464751104/HZL2jGSa.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/997194879464751104/HZL2jGSa.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/AviationBlue" target="_blank">@AviationBlue</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">16:31:21</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/WorldFootballi/status/1147181179096961024" target="_blank">José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-ye… https://t.co/OoDKWCyD5G</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/594198124798816257/lDbQc_Ev.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/594198124798816257/lDbQc_Ev.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/WorldFootballi" target="_blank">@WorldFootballi</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">16:05:56</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/RangersNewsFeed/status/1147174782724653056" target="_blank">Scottish transfer news: Rangers ace Ross McCrorie joins Portsmouth | Celtic target Cifuentes to choose between Hoop… https://t.co/1ejW21Mhvt</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Rangers News Feed</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/932396740787032069/W2_OfoaB.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/932396740787032069/W2_OfoaB.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/RangersNewsFeed" target="_blank">@RangersNewsFeed</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">15:41:32</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1147168644956327938" target="_blank">RT @BlairImani: White American get more upset about Nike and mermaids than they do about concentration camps.</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">14:55:13</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/NewsOnScotland/status/1147156987173625856" target="_blank">Scottish transfer news: Celtic target Cifuentes to choose between Hoops and Man City | Rangers midfielder McCrorie… https://t.co/TMxRVRyGcu</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twibble.io</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/722829191587057666/Na8WefoK.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/722829191587057666/Na8WefoK.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/NewsOnScotland" target="_blank">@NewsOnScotland</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">14:46:37</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/RangersNewsFeed/status/1147154823634194432" target="_blank">Scottish transfer news: Celtic target Cifuentes to choose between Hoops and Man City | Rangers midfielder McCrorie… https://t.co/2N9kF5Hjlz</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Rangers News Feed</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/932396740787032069/W2_OfoaB.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/932396740787032069/W2_OfoaB.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/RangersNewsFeed" target="_blank">@RangersNewsFeed</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">14:36:25</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/ThomasMcGhee6/status/1147152255885434880" target="_blank">RT @HITCdeadlineday: Transfer news: Jose Cifuentes makes plans clear amid £2.5m Celtic and Manchester City links #celtic #mcfc #celticfc ht…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1135188164405059585/2GkxS7we.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1135188164405059585/2GkxS7we.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/ThomasMcGhee6" target="_blank">@ThomasMcGhee6</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">14:23:16</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/BhoysNews1888/status/1147148944595660800" target="_blank">Scottish transfer news: Celtic target Cifuentes to choose between Hoops and Man City | Rangers... -… https://t.co/aAEh0wSiXm</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">celticsnews</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/971667726287609857/skj1pfmx.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/971667726287609857/skj1pfmx.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/BhoysNews1888" target="_blank">@BhoysNews1888</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">14:11:57</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/M_Van_Bastard/status/1147146098433282048" target="_blank">Headline in the Herald:
+
+Scottish transfer news LIVE: 
+
+Rangers ace Ross McCrorie joins Portsmouth | Celtic target… https://t.co/rR76U3atYO</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">TweetDeck</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1115715529799499777/_5k3yAQg.png" target="_blank"><img src="https://pbs.twimg.com/profile_images/1115715529799499777/_5k3yAQg.png" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/M_Van_Bastard" target="_blank">@M_Van_Bastard</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">13:58:08</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/MartinBoyle88/status/1147142621791424512" target="_blank">@knoxyy_67 @CelticFC Cifuentes, Mcgregor and Christie in the middle  🤯</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1133128328754417672/FX5mBJaX.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1133128328754417672/FX5mBJaX.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/MartinBoyle88" target="_blank">@MartinBoyle88</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">13:51:32</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/RangersNewsFeed/status/1147140961551749122" target="_blank">Scottish transfer news LIVE: Rangers ace Ross McCrorie joins Portsmouth | Celtic target Cifuentes to choose between… https://t.co/x3363Riko0</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Rangers News Feed</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/932396740787032069/W2_OfoaB.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/932396740787032069/W2_OfoaB.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/RangersNewsFeed" target="_blank">@RangersNewsFeed</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">13:25:37</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/moggy1888/status/1147134436699463680" target="_blank">Jose Cifuentes makes plans clear amid £2.5m Celtic and Manchester City links https://t.co/tTuzigJ4m2 via @HITCsport</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1144679089980215296/6W88Upj7.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1144679089980215296/6W88Upj7.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/moggy1888" target="_blank">@moggy1888</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">13:00:04</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/HITCdeadlineday/status/1147128009645801472" target="_blank">Transfer news: Jose Cifuentes makes plans clear amid £2.5m Celtic and Manchester City links #celtic #mcfc #celticfc https://t.co/B4g0S6gvae</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">HITC Tweet Service</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/595642977403428864/-0aIOoWe.png" target="_blank"><img src="https://pbs.twimg.com/profile_images/595642977403428864/-0aIOoWe.png" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/HITCdeadlineday" target="_blank">@HITCdeadlineday</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">11:37:19</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/GreigCFC88/status/1147107185731756032" target="_blank">Scenes when Man City beat us to the signing of Cifuentès and then loan him to us for two years</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1146492589882904579/S4jrSkmA.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1146492589882904579/S4jrSkmA.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/GreigCFC88" target="_blank">@GreigCFC88</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">11:36:07</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/RangersNewsFeed/status/1147106880478748672" target="_blank">Scottish transfer news LIVE: Celtic target Cifuentes to choose between Hoops and Man City | Portsmouth tracking Ran… https://t.co/kg5g3ltepa</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Rangers News Feed</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/932396740787032069/W2_OfoaB.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/932396740787032069/W2_OfoaB.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/RangersNewsFeed" target="_blank">@RangersNewsFeed</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">11:07:00</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/BhoysNews1888/status/1147099554472484870" target="_blank">Scottish transfer news LIVE: Celtic target Cifuentes to choose between Hoops and Man City |... -… https://t.co/ZHGlK9zOLn</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">celticsnews</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/971667726287609857/skj1pfmx.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/971667726287609857/skj1pfmx.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/BhoysNews1888" target="_blank">@BhoysNews1888</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">11:01:53</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/JamesHarnett/status/1147098267127296000" target="_blank">“RT @ManCity: Ecuadorean U20 international Jose Cifuentes has signed a 5 year deal deal with #City and will immedia… https://t.co/PWFwTyJT2H</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1016344603048529923/1wmy8Ju0.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1016344603048529923/1wmy8Ju0.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/JamesHarnett" target="_blank">@JamesHarnett</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">10:52:38</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Bubbache/status/1147095939120848897" target="_blank">Jose Cifuentes admits he will sign for either Celtic or Manchester City, and move to Celtic on a 2 year loan. https://t.co/HL6xQV8zZU</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1135328811199995909/uqN_uiV2.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1135328811199995909/uqN_uiV2.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Bubbache" target="_blank">@Bubbache</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">09:23:13</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/omaralali1016/status/1147073437204123648" target="_blank">RT @SuperbiaProeIia: Jose Cifuentes (Rumoured City target):
+
+&#34;My intention is to leave. I have given everything of me in America de Quito..…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1044396513894563840/9eofKNnW.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1044396513894563840/9eofKNnW.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/omaralali1016" target="_blank">@omaralali1016</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">09:00:40</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/R_Kharman/status/1147067762189230080" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/883117748737499136/XzrniCiR.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/883117748737499136/XzrniCiR.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/R_Kharman" target="_blank">@R_Kharman</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">09:00:38</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/SerieASitdown/status/1147067754673057792" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1037371541426778112/ftLZcOU7.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1037371541426778112/ftLZcOU7.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/SerieASitdown" target="_blank">@SerieASitdown</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">08:59:01</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/MickNolan88/status/1147067347120902144" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1109484719534755840/aa3Z2kiV.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1109484719534755840/aa3Z2kiV.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/MickNolan88" target="_blank">@MickNolan88</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">06:51:07</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/JordanW91/status/1147035159381909504" target="_blank">RT @SuperbiaProeIia: Jose Cifuentes (Rumoured City target):
+
+&#34;My intention is to leave. I have given everything of me in America de Quito..…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1078345559801581569/yF_pWM_d.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1078345559801581569/yF_pWM_d.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/JordanW91" target="_blank">@JordanW91</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">06:48:43</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/deanparis78/status/1147034554152210432" target="_blank">RT @SuperbiaProeIia: Jose Cifuentes (Rumoured City target):
+
+&#34;My intention is to leave. I have given everything of me in America de Quito..…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1130037043017539585/o_ghcbD6.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1130037043017539585/o_ghcbD6.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/deanparis78" target="_blank">@deanparis78</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">06:47:22</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/shivachettri/status/1147034213952053248" target="_blank">RT @SuperbiaProeIia: Jose Cifuentes (Rumoured City target):
+
+&#34;My intention is to leave. I have given everything of me in America de Quito..…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/733151439141240832/BEp-coKf.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/733151439141240832/BEp-coKf.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/shivachettri" target="_blank">@shivachettri</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">06:46:36</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/SuperbiaProeIia/status/1147034020938694656" target="_blank">Jose Cifuentes (Rumoured City target):
+
+&#34;My intention is to leave. I have given everything of me in America de Quit… https://t.co/oBnSYELdW2</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1102376269126217729/Wb_LBlcj.png" target="_blank"><img src="https://pbs.twimg.com/profile_images/1102376269126217729/Wb_LBlcj.png" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/SuperbiaProeIia" target="_blank">@SuperbiaProeIia</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">06:42:36</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/anand_yawalkar/status/1147033015815561216" target="_blank">RT @SuperbiaProeIia: Manchester City and Celtic are locked in a battle for Ecuador’s new sensation Jose Cifuentes.
+
+Celtic are looking to s…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/966496080845254656/BMfEDsfu.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/966496080845254656/BMfEDsfu.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/anand_yawalkar" target="_blank">@anand_yawalkar</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">04:26:20</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/tim_virnig/status/1146998724247392257" target="_blank">RT @gameallniteshow: The  @retroboardgamer himself Asdruval Cifuentes joins us in this special July 4th interview!  Come learn how he escap…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1147566533582950402/aUPHbren.png" target="_blank"><img src="https://pbs.twimg.com/profile_images/1147566533582950402/aUPHbren.png" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/tim_virnig" target="_blank">@tim_virnig</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">04:22:54</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/klarotae/status/1146997859922907136" target="_blank">carlos cifuentes was nothing but good to alba and all he got in return were lies and a broken heart pls i want the best for him</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1146993096284155904/TkFJhhZx.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1146993096284155904/TkFJhhZx.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/klarotae" target="_blank">@klarotae</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">00:36:37</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/gemi_ry/status/1146940915262603264" target="_blank">@beth_janes_ @orvillepeck You, me, and @nat_cifuentes ?????? Oct. 3????</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1116918837197385728/DxqVQsEU.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1116918837197385728/DxqVQsEU.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/gemi_ry" target="_blank">@gemi_ry</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">00:05:55</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/QuiverTime/status/1146933186401832960" target="_blank">RT @gameallniteshow: The  @retroboardgamer himself Asdruval Cifuentes joins us in this special July 4th interview!  Come learn how he escap…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web App</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/684539869025013760/EhmVaPmB.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/684539869025013760/EhmVaPmB.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/QuiverTime" target="_blank">@QuiverTime</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/05/2019</p></td>
+                      <td align="center"><p class="table_results">00:00:34</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/gameallniteshow/status/1146931839753494530" target="_blank">The  @retroboardgamer himself Asdruval Cifuentes joins us in this special July 4th interview!  Come learn how he es… https://t.co/CETUTRG3Ty</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Hootsuite Inc.</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1020860462940999680/2vkv4fe3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1020860462940999680/2vkv4fe3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/gameallniteshow" target="_blank">@gameallniteshow</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/04/2019</p></td>
+                      <td align="center"><p class="table_results">23:02:46</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/tomrobbo89/status/1146917294775373824" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/3046907948/b3b56218725f705d9812a7246e1eef5f.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/3046907948/b3b56218725f705d9812a7246e1eef5f.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/tomrobbo89" target="_blank">@tomrobbo89</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/04/2019</p></td>
+                      <td align="center"><p class="table_results">22:54:48</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/SimonEdwardsSAF/status/1146915291395448832" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/963834931112751104/flsPg9gc.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/963834931112751104/flsPg9gc.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/SimonEdwardsSAF" target="_blank">@SimonEdwardsSAF</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/04/2019</p></td>
+                      <td align="center"><p class="table_results">22:54:22</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/austin_james906/status/1146915180108025856" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/847658804833538048/PViMJR_O.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/847658804833538048/PViMJR_O.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/austin_james906" target="_blank">@austin_james906</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/04/2019</p></td>
+                      <td align="center"><p class="table_results">22:43:30</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/JDNalton/status/1146912446243835905" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1125142195948937218/R9iZdhBF.png" target="_blank"><img src="https://pbs.twimg.com/profile_images/1125142195948937218/R9iZdhBF.png" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/JDNalton" target="_blank">@JDNalton</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/04/2019</p></td>
+                      <td align="center"><p class="table_results">22:43:07</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/AdamBrandon84/status/1146912348449509377" target="_blank">RT @WorldFootballi: José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-year-o…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/876896705131753473/6H2X-xfW.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/876896705131753473/6H2X-xfW.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/AdamBrandon84" target="_blank">@AdamBrandon84</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/04/2019</p></td>
+                      <td align="center"><p class="table_results">22:42:58</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/WorldFootballi/status/1146912313158623232" target="_blank">José Cifuentes - Scouting Spotlight
+
+@tomrobbo89 and @austin_james906 are joined by @AdamBrandon84 to discuss 20-ye… https://t.co/hiyieOMZSV</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/594198124798816257/lDbQc_Ev.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/594198124798816257/lDbQc_Ev.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/WorldFootballi" target="_blank">@WorldFootballi</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/04/2019</p></td>
+                      <td align="center"><p class="table_results">19:09:30</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/gameallniteshow/status/1146858590952669185" target="_blank">Coming 8 pm tonight!  @retroboardgamer himself Asdruval Cifuentes joins us in this special July 4th interview!  Com… https://t.co/Ny6ALJyINy</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Hootsuite Inc.</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1020860462940999680/2vkv4fe3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1020860462940999680/2vkv4fe3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/gameallniteshow" target="_blank">@gameallniteshow</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/04/2019</p></td>
+                      <td align="center"><p class="table_results">18:54:47</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1146854886857986049" target="_blank">RT @FCMiranda__: Death Valley is trending and all I thought was of... https://t.co/6nW3xzo1wb</a></td>
+                                                                  <td align="center"><p class="table_results">
+                          <a href="http://pbs.twimg.com/tweet_video_thumb/D-ptakiXUAI3kFK.jpg" target="_blank"><img src="http://pbs.twimg.com/tweet_video_thumb/D-ptakiXUAI3kFK.jpg" width=100 height=100 border="1"></a>
+                                                                  </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/03/2019</p></td>
+                      <td align="center"><p class="table_results">22:04:14</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/larrybirdboston/status/1146540176233193477" target="_blank">@Celtic1888News @CelticFC Stacey or Peraud at RB, Harper or Cifuentes and a Chris Sutton type striker do for me</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1133792696617832448/34SRGqG8.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1133792696617832448/34SRGqG8.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/larrybirdboston" target="_blank">@larrybirdboston</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/03/2019</p></td>
+                      <td align="center"><p class="table_results">14:56:23</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/rob_i_c/status/1146432504817233920" target="_blank">RT @hdesolminihac: En relación al comportamiento “inusual” de los fondos de pensiones informado hoy en @ElMercurio_cl, recordamos que @clap…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1134937027529650177/2RsBMvsJ.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1134937027529650177/2RsBMvsJ.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/rob_i_c" target="_blank">@rob_i_c</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/03/2019</p></td>
+                      <td align="center"><p class="table_results">02:07:29</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1146239005425623042" target="_blank">RT @prisesaks: so my uncle which is her dad ,was taken by immigration a week before her 15 and sadly he wasn’t able to be there.Her brother…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/03/2019</p></td>
+                      <td align="center"><p class="table_results">01:36:54</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/gaazua/status/1146231308273750018" target="_blank">RT @hdesolminihac: En relación al comportamiento “inusual” de los fondos de pensiones informado hoy en @ElMercurio_cl, recordamos que @clap…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1069358571488464902/QWb7Rx9O.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1069358571488464902/QWb7Rx9O.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/gaazua" target="_blank">@gaazua</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/02/2019</p></td>
+                      <td align="center"><p class="table_results">21:14:40</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/PedroDosque/status/1146165316193529857" target="_blank">RT @hdesolminihac: En relación al comportamiento “inusual” de los fondos de pensiones informado hoy en @ElMercurio_cl, recordamos que @clap…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1093570885557125122/gE1TB5Rc.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1093570885557125122/gE1TB5Rc.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/PedroDosque" target="_blank">@PedroDosque</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/02/2019</p></td>
+                      <td align="center"><p class="table_results">20:22:50</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1146152271962628096" target="_blank">RT @LilNasX: just got news that i’m gay and i will no longer be streaming my music. i’m sorry that shit is just not ok.</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/02/2019</p></td>
+                      <td align="center"><p class="table_results">18:14:28</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/mb_conde/status/1146119968301420544" target="_blank">RT @hdesolminihac: En relación al comportamiento “inusual” de los fondos de pensiones informado hoy en @ElMercurio_cl, recordamos que @clap…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1083025870846074880/cYHfkjYc.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1083025870846074880/cYHfkjYc.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/mb_conde" target="_blank">@mb_conde</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/02/2019</p></td>
+                      <td align="center"><p class="table_results">17:52:35</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1146114457296351232" target="_blank">RT @steveaustinBSR: Happy Birthday to @BretHart. The best there is, the best there was, and the best there ever will be. One of my all time…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/02/2019</p></td>
+                      <td align="center"><p class="table_results">17:39:05</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/hdesolminihac/status/1146111062229565440" target="_blank">RT @hdesolminihac: En relación al comportamiento “inusual” de los fondos de pensiones informado hoy en @ElMercurio_cl, recordamos que @clap…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/443414331427143680/6OqvgWpV.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/443414331427143680/6OqvgWpV.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/hdesolminihac" target="_blank">@hdesolminihac</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/02/2019</p></td>
+                      <td align="center"><p class="table_results">16:06:10</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/hdesolminihac/status/1146087677697171456" target="_blank">En relación al comportamiento “inusual” de los fondos de pensiones informado hoy en @ElMercurio_cl, recordamos que… https://t.co/7QdKCqgB8j</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/443414331427143680/6OqvgWpV.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/443414331427143680/6OqvgWpV.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/hdesolminihac" target="_blank">@hdesolminihac</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/02/2019</p></td>
+                      <td align="center"><p class="table_results">15:55:30</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/cifuentes_alejo/status/1146084993657200641" target="_blank">RT @GMillerTSN: An NHL GM on Toronto’s moves: “They had to dip into their forward depth to improve their D, but this is a home run. They’re…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/929039665805643776/47D0CFvk.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/929039665805643776/47D0CFvk.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/cifuentes_alejo" target="_blank">@cifuentes_alejo</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/02/2019</p></td>
+                      <td align="center"><p class="table_results">04:48:21</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1145917098968911872" target="_blank">RT @Delzinski: Cody gets hit over the head with a chair. Pure Outrage.
+
+WWE kills Bobby Lashley and Braun Strowman.... Thank you Paul Heyma…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/02/2019</p></td>
+                      <td align="center"><p class="table_results">04:17:18</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/_cifuentes_/status/1145909286683447296" target="_blank">@therealmishh I do and it’s only going to get better 😌</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1010589808974917632/4QBllalp.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1010589808974917632/4QBllalp.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/_cifuentes_" target="_blank">@_cifuentes_</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/02/2019</p></td>
+                      <td align="center"><p class="table_results">02:49:06</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/cifuentes_deni/status/1145887091055837185" target="_blank">@MimiDevRblx LittleDeni and SneakyJocelyn1221 https://t.co/v0FnNE5QZW</a></td>
+                                                                  <td align="center"><p class="table_results">
+                          <a href="http://pbs.twimg.com/media/D-cCO-YX4AET9P2.jpg" target="_blank"><img src="http://pbs.twimg.com/media/D-cCO-YX4AET9P2.jpg" width=100 height=100 border="1"></a>
+                                                                  </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1145885563511287809/k4b7M_fr.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1145885563511287809/k4b7M_fr.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/cifuentes_deni" target="_blank">@cifuentes_deni</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/02/2019</p></td>
+                      <td align="center"><p class="table_results">02:19:57</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1145879754832326662" target="_blank">RT @WWE: INJURY UPDATE: @fightbobby is resting comfortably and is undergoing further medical evaluation, while @BraunStrowman might have su…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1100896315603468288/MVMTURo3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">07/02/2019</p></td>
+                      <td align="center"><p class="table_results">00:39:33</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/ej_cifuentes/status/1145854488504410114" target="_blank">RT @JustinTrudeau: Happy Canada Day! We have a lot to celebrate, and it’s all thanks to Canadians like you. https://t.co/5ja6uY8vAN https:/…</a></td>
+                                                                  <td align="center"><p class="table_results">
+                          <a href="http://pbs.twimg.com/media/D-Y8RrvXYAA0yCH.jpg" target="_blank"><img src="http://pbs.twimg.com/media/D-Y8RrvXYAA0yCH.jpg" width=100 height=100 border="1"></a>
+                                                                  </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/983823415462084608/esIk-JV5.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/983823415462084608/esIk-JV5.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/ej_cifuentes" target="_blank">@ej_cifuentes</a></p></td>
+                    </tr>
+                                          </table>
+              <p class="results">Total: 111 results.</p>
+        
+
+                <h2>Search by coordinates</h2>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                <br><br>
+                
+		    <h2>Geolocated Users</h2>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                <br><br>
+                		
+		<h2>Tagged Users</h2>
+                <table class="client_app" width="970" border="0">
+                    <tr bgcolor="1c75bc">
+                      <td height="25" align="center" colspan="2"><p><font color="white">TAGGED USER</font></p></td>
+                      <td align="center" colspan="2"><p><font color="white">TAGGED BY</font></p></td>
+                      <td align="center"><p><font color="white">DATE</font></p></td>
+                      <td align="center"><p><font color="white">TIME</font></p></td>
+                      <td align="center"><p><font color="white">MEDIA</font></p></td>
+                      <td align="center"><p><font color="white">TWEET</font></p></td>
+                      <td align="center" colspan="2"><p><font color="white">COORDINATES</font></p></td>
+                    </tr>
+                                         
+                                  </table>
+              <p class="results">Total: 0 results.</p>
+                  
+            </div><!--#end search table--> 
+
+
+            <div id="conversations">
+                <a id="conversation" name="conversation"></a>
+                <h3>User Conversations</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end conversations-->
+            <p class="results"><br></p>
+
+
+        </div><!--#end datos-->
+        <div id="footer">
+        <p class="footer">www.vicenteaguileradiaz.com</p>
+        <p class="footer_link"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="CC" alt="Licencia de Creative Commons" border="0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span class="footer_link" xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><b>Tinfoleak</b></span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Vicente Aguilera Díaz</span> is licensed under a <a class="footer_link" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional License</a>.</p>
+        </div>
+</div>  <!--#end contenido-->
+</body>
+</html>

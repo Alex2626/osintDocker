@@ -1,0 +1,852 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic,300italic,300' rel='stylesheet' type='text/css'>
+<link href="style.css" rel='stylesheet' type='text/css'>
+
+<title>Tinfoleak Report</title>
+
+</head>
+
+<body>
+<!--cabecera-->
+    <div class="header">
+		<p class="datos_personales"><a href="https://twitter.com/VAguileraDiaz" target="_blank">@VAguileraDiaz</a> <a href="mailto:vaguilera@isecauditors.com" target="_blank">vaguilera@isecauditors.com</a> <a href="http://www.isecauditors.com" target="_blank">Internet Security Auditors</a> v2.1 [SHA2017 Edition]</p>
+	</div>
+    <!--#end cabecera-->
+    <!--contenido-->
+<a id="top" name="top"></a>
+<div id="container">    
+    <div id="content">
+    	<div id="title">
+        	<!--<h4>Tinfoleak v2.1 [SHA2017 Edition]</h4>-->
+            <img src="img/tinfoleak_logo.png" width="230" class="logo"/>
+        </div>
+    	<div id="foto_perfil">
+        	<a href="http://pbs.twimg.com/profile_images/824678874395115524/tHn3lVpH_400x400.jpg" target="_blank"><img class="perfil" src="http://pbs.twimg.com/profile_images/824678874395115524/tHn3lVpH_400x400.jpg" target="_blank" alt="usuario" width="100" height="100"></a><br />
+            <h1>tinfoleak</h1>
+             <p class="descripcion">The most complete open-source tool for Twitter intelligence analysis. #OSINT #SOCMINT #socialmedia</span></p>
+             
+             <center><p class="datos_perfil">Followers: <span><a href="http://www.twitter.com/tinfoleak/followers" target="_blank">246</a></span> | Following: <span><a href="http://www.twitter.com/tinfoleak/following" target="_blank">0</a></span> | Likes: <span><a href="http://www.twitter.com/tinfoleak/likes" target="_blank">53</a></span> <br /> Tweets: <span>58 (0.03 tweets/day)</span></p></center>
+             
+        </div><!--#end foto_perfil-->
+        
+        <div id="datos_usuario">
+            <div class="datos1">
+              <p class="datos_perfil">Screen Name: <a href="http://www.twitter.com/tinfoleak" target="_blank">tinfoleak</a></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Account Created at: <span>09/13/2013</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Verified: <span>False</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Twitter ID: <span>1861510189</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+	                    	<p class="datos_perfil">URL: <a href="http://www.vicenteaguileradiaz.com/tools" target="_blank">http://www.vicenteaguileradiaz.com/tools</a></p>
+	                <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Location: <span>Earth</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Time Zone: <span>None</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Geo enabled: <span>False</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Listed count: <span>5</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Language: <span>es</span></p>
+            </div>
+
+      </div>
+    </div><!--#end content-->
+    
+      <div id="datos" width="970"> <!--# menu-->
+        <div id="client_apps">
+            <div class="one_third"> 
+            <center>
+            <ul class="button">
+				<li><a href="#client_apps">Apps</a></li>
+				<li><a href="#social">Social ID</a></li>
+				<li><a href="#hashtags">Hashtags</a></li>
+				<li><a href="#user_mentions">Mentions</a></li>
+        <li><a href="#favourites">Likes</a></li>
+				<li><a href="#tweets">Tweets</a></li>
+        <li><a href="#topwords">Words Freq</a></li>
+				<li><a href="#metadata">Metadata</a></li>
+				<li><a href="#media">Media</a></li>
+				<li><a href="#geo">Geo</a></li>
+				<li><a href="#search">Search</a></li>
+        <li><a href="#conversation">Conv</a></li>
+			</ul>
+        </center>
+        </div>
+
+       </div> <!--# end menu-->
+
+        <div id="datos">
+
+            <div id="client_apps">
+                <a id="client_args" name="client_args"></a>
+                <h3>Tinfoleak Arguments</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+
+                <table class="client_app" width="970" border="0">
+                    <tr bgcolor="1c75bc">
+                      <td height="25"><p><font color="white">ARGUMENTS</font></p></td>
+                      <td><p><font color="white">OPERATING SYSTEM</font></p></td>
+                    </tr>
+                    <tr>
+                      <td><p class="table_results">[&#39;./tinfoleak.py&#39;, &#39;-u&#39;, &#39;urjc&#39;, &#39;-t&#39;, &#39;200&#39;, &#39;-i&#39;, &#39;--sdate&#39;, &#39;2018-06-07&#39;, &#39;--edate&#39;, &#39;2018-06-14&#39;, &#39;--find&#39;, &#39;[+]URJC&#39;, &#39;--search&#39;, &#39;-o&#39;, &#39;adSEARCHURJC_2018-06-14.html&#39;]</p></td>
+                      <td><p class="table_results">posix - linux2</p></td>
+                    </tr>
+                </table>
+
+            </div><!--#end client_apps-->
+
+
+            <div id="client_apps">
+                <a id="client_apps" name="client_apps"></a>
+                <h3>Client Applications</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end client_apps-->
+
+            <!--social table-->
+             <div id="social_networks">
+                <a id="social" name="social"></a>
+                <h3>Social Networks</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                <br>
+                  
+            </div><!--#end social_networks-->
+
+            <!--hashtags table-->
+             <div id="hashtags">
+                <a id="hashtags" name="hashtags"></a>
+                <h3>Hashtags</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                
+                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                <br>
+                  
+                  </div><!--#end hashtags table--> 
+
+
+
+            <!--mentions table-->
+            <div id="client_apps">
+                <a id="user_mentions" name="user_mentions"></a>
+                <h3>User Mentions</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                                  </div><!--#end mentions table--> 
+
+
+            <!--favourites table-->            
+            <div id="favourites">
+            <a id="favourites" name="favourites"></a>
+                <h3>Likes</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                                 <br><br>
+            </div><!--#end favourites table--> 
+
+
+            <!--tweets table-->            
+            <div id="client_apps">
+            <a id="tweets" name="tweets"></a>
+                <h3>Tweets</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end tweets table--> 
+
+
+            <!--top words table-->            
+            <div id="client_apps">
+            <a id="topwords" name="topwords"></a>
+                <h3>Words Most used</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end tweets table--> 
+
+            
+            <!--metadata table-->            
+            <div id="client_apps">
+                <a id="metadata" name="media"></a>
+                <h3>METADATA </h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end images table--> 
+
+              <!--media table-->            
+            <div id="client_apps">
+                <a id="media" name="media"></a>
+                <h3>User images and videos</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end media table--> 
+            
+            <!--geo table-->            
+            <div id="client_apps">
+            <a id="geo" name="geo"></a>
+                <h3>Geolocation Information</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end geo table-->
+
+
+            <!--geo table-->            
+            <div id="client_apps">
+            <a id="search" name="search"></a>
+                <h3>Advanced Search</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                
+                <h2>Advanced Search</h2>
+                
+                <table class="client_app" width="970" border="0">
+                    <tr bgcolor="1c75bc">
+                      <td height="25"><p align="center"><font color="white">DATE</font></p></td>
+                      <td><p align="center"><font color="white">TIME</font></p></td>
+                      <td colspan="5"><p><font color="white">TWEET</font></p></td>
+                      <td><p align="center"><font color="white">MEDIA</font></p></td>
+                      <td colspan="2"><p><font color="white">APPLICATION</font></p></td>
+                      <td><p align="center"><font color="white">PROFILE IMG</font></p></td>
+                      <td><p align="center"><font color="white">USER</font></p></td>
+                    </tr>
+                                        <tr>
+                      <td align="center"><p class="table_results">06/13/2018</p></td>
+                      <td align="center"><p class="table_results">13:13:22</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/OIAA_URJC/status/1006887252046249984" target="_blank">ABOUT US
+An innovative office at national level that works both internally (reporting and training to the students… https://t.co/KZN9FUhRO3</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/928952924016926720/7PDyJVGz.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/928952924016926720/7PDyJVGz.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/OIAA_URJC" target="_blank">@OIAA_URJC</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/12/2018</p></td>
+                      <td align="center"><p class="table_results">23:53:08</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/FRodriguezJimen/status/1006685867673604096" target="_blank">RT @FulbrightSpain: Congrats! recent @PittTweet graduate Stephanie Washington receives #Fulbright #award to travel to #Spain to conduct #Pr…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/922516028122456065/vqziHsl5.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/922516028122456065/vqziHsl5.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/FRodriguezJimen" target="_blank">@FRodriguezJimen</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/12/2018</p></td>
+                      <td align="center"><p class="table_results">13:15:56</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/FulbrightSpain/status/1006525508580933632" target="_blank">Congrats! recent @PittTweet graduate Stephanie Washington receives #Fulbright #award to travel to #Spain to conduct… https://t.co/juiRHcw0DM</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1239224328/LOGOFULBRIGHT.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1239224328/LOGOFULBRIGHT.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/FulbrightSpain" target="_blank">@FulbrightSpain</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/11/2018</p></td>
+                      <td align="center"><p class="table_results">10:08:51</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/crispergui/status/1006116038675714048" target="_blank">RT @Ens_bilingue: CLIL: AN EFFECTIVE METHODOLOGICAL APPROACH TO TEACH FOREIGN LANGUAGES IN MAINSTREAM EDUCATION
+@VirginiaVinuesa 
+@Ens_bili…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/738777892738437120/B4dTQfWw.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/738777892738437120/B4dTQfWw.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/crispergui" target="_blank">@crispergui</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/11/2018</p></td>
+                      <td align="center"><p class="table_results">07:50:59</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/SciTrack/status/1006081347096588288" target="_blank">RT @RafaMayoGarcia: Preparing jointly with @urjc a summer research stay at @CIEMAT_Moncloa and @SciTrack for a maths+ICT student pursuing h…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/564774537145774080/W9cFFdDX.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/564774537145774080/W9cFFdDX.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/SciTrack" target="_blank">@SciTrack</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/11/2018</p></td>
+                      <td align="center"><p class="table_results">07:50:31</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/RafaMayoGarcia/status/1006081226158039040" target="_blank">Preparing jointly with @urjc a summer research stay at @CIEMAT_Moncloa and @SciTrack for a maths+ICT student pursuing her BSc grade</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/3476336371/b54446eca570b504f61155e575460f81.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/3476336371/b54446eca570b504f61155e575460f81.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/RafaMayoGarcia" target="_blank">@RafaMayoGarcia</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">20:31:06</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/salvamontaner/status/1005910248840925185" target="_blank">RT @Ens_bilingue: CLIL: AN EFFECTIVE METHODOLOGICAL APPROACH TO TEACH FOREIGN LANGUAGES IN MAINSTREAM EDUCATION
+@VirginiaVinuesa 
+@Ens_bili…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/2687576943/2ef7eaf2df1210245b19297067187f9d.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/2687576943/2ef7eaf2df1210245b19297067187f9d.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/salvamontaner" target="_blank">@salvamontaner</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">20:01:23</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Eduair/status/1005902767557234689" target="_blank">@Imagine_Prado @PJoliCo @_Aterrad2 @DemocratsSpain @TaitRosemary @AlfonsoIXLeon @CDRTabarnia @Ousitotraveller… https://t.co/ICOvy2ZfdO</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPad</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/77374745/perro.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/77374745/perro.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Eduair" target="_blank">@Eduair</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">19:01:24</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/VirginiaVinuesa/status/1005887673251389440" target="_blank">RT @Ens_bilingue: CLIL = enseñanza de contenidos de materias “no lingüísticas “? En absoluto. 
+CLIL más allá de la enseñanza bilingüe 
+@Vir…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/668580587003912194/gSNiuN-l.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/668580587003912194/gSNiuN-l.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/VirginiaVinuesa" target="_blank">@VirginiaVinuesa</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">18:49:09</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/raqueldafouz/status/1005884592161742851" target="_blank">Oferta Técnico de Apoyo para el proyecto &#34;Farmers Pride_Networking partnerships and tools to enhance in situ conser… https://t.co/qAsABpRnCK</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/923471647822229504/GLU9TNuL.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/923471647822229504/GLU9TNuL.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/raqueldafouz" target="_blank">@raqueldafouz</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">16:22:02</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Ens_bilingue/status/1005847568574767105" target="_blank">RT @Ens_bilingue: CLIL: AN EFFECTIVE METHODOLOGICAL APPROACH TO TEACH FOREIGN LANGUAGES IN MAINSTREAM EDUCATION
+@VirginiaVinuesa 
+@Ens_bili…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/733213377594560512/8XIOXu6_.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/733213377594560512/8XIOXu6_.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Ens_bilingue" target="_blank">@Ens_bilingue</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">15:40:22</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/XGDC/status/1005837083351580672" target="_blank">RT @Ens_bilingue: CLIL: AN EFFECTIVE METHODOLOGICAL APPROACH TO TEACH FOREIGN LANGUAGES IN MAINSTREAM EDUCATION
+@VirginiaVinuesa 
+@Ens_bili…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/788060369562533889/Hd-gXDU4.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/788060369562533889/Hd-gXDU4.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/XGDC" target="_blank">@XGDC</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">15:38:57</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/CIEB2018/status/1005836726898692096" target="_blank">RT @Ens_bilingue: CLIL: AN EFFECTIVE METHODOLOGICAL APPROACH TO TEACH FOREIGN LANGUAGES IN MAINSTREAM EDUCATION
+@VirginiaVinuesa 
+@Ens_bili…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1000061392165187589/YagNLYSl.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1000061392165187589/YagNLYSl.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/CIEB2018" target="_blank">@CIEB2018</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">15:35:07</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Ens_bilingue/status/1005835762225614855" target="_blank">CLIL: AN EFFECTIVE METHODOLOGICAL APPROACH TO TEACH FOREIGN LANGUAGES IN MAINSTREAM EDUCATION
+@VirginiaVinuesa… https://t.co/Lpre6c8opQ</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Hootsuite Inc.</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/733213377594560512/8XIOXu6_.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/733213377594560512/8XIOXu6_.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Ens_bilingue" target="_blank">@Ens_bilingue</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">15:21:58</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/gamalielrender/status/1005832451346685952" target="_blank">FontCode2: Embedding Information in videos using Gesture Perturbation. @Columbia. Here is a great solution to fight… https://t.co/d5mxmEEssN</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/909143024013254656/GS8IkBcX.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/909143024013254656/GS8IkBcX.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/gamalielrender" target="_blank">@gamalielrender</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">14:03:53</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Ens_bilingue/status/1005812801389187073" target="_blank">RT @Ens_bilingue: CLIL = enseñanza de contenidos de materias “no lingüísticas “? En absoluto. 
+CLIL más allá de la enseñanza bilingüe 
+@Vir…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/733213377594560512/8XIOXu6_.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/733213377594560512/8XIOXu6_.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Ens_bilingue" target="_blank">@Ens_bilingue</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">13:52:12</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/CIEB2018/status/1005809862742245381" target="_blank">RT @Ens_bilingue: CLIL = enseñanza de contenidos de materias “no lingüísticas “? En absoluto. 
+CLIL más allá de la enseñanza bilingüe 
+@Vir…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1000061392165187589/YagNLYSl.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1000061392165187589/YagNLYSl.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/CIEB2018" target="_blank">@CIEB2018</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">13:50:23</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/XGDC/status/1005809405080866816" target="_blank">RT @Ens_bilingue: CLIL = enseñanza de contenidos de materias “no lingüísticas “? En absoluto. 
+CLIL más allá de la enseñanza bilingüe 
+@Vir…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/788060369562533889/Hd-gXDU4.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/788060369562533889/Hd-gXDU4.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/XGDC" target="_blank">@XGDC</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">13:49:59</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/XGDC/status/1005809303050182656" target="_blank">RT @Ens_bilingue: CLIL = enseñanza de contenidos de materias “no lingüísticas “? En absoluto. 
+CLIL más allá de la enseñanza bilingüe 
+@Vir…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/788060369562533889/Hd-gXDU4.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/788060369562533889/Hd-gXDU4.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/XGDC" target="_blank">@XGDC</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">09:27:21</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/kespinar90/status/1005743207626563585" target="_blank">RT @Ens_bilingue: CLIL = enseñanza de contenidos de materias “no lingüísticas “? En absoluto. 
+CLIL más allá de la enseñanza bilingüe 
+@Vir…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/928940255625072640/0KfNw6vY.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/928940255625072640/0KfNw6vY.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/kespinar90" target="_blank">@kespinar90</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">09:25:05</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Ens_bilingue/status/1005742639742963713" target="_blank">CLIL = enseñanza de contenidos de materias “no lingüísticas “? En absoluto. 
+CLIL más allá de la enseñanza bilingüe… https://t.co/BORdZQQ8Dv</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Hootsuite</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/733213377594560512/8XIOXu6_.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/733213377594560512/8XIOXu6_.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Ens_bilingue" target="_blank">@Ens_bilingue</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/10/2018</p></td>
+                      <td align="center"><p class="table_results">07:07:23</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/gamalielrender/status/1005707984016560130" target="_blank">@maxplanckpress @Saar_Uni @Stanford @urjc @cebit @EurekAlert And with this technology we can make a lot of interesting things. :D</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/909143024013254656/GS8IkBcX.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/909143024013254656/GS8IkBcX.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/gamalielrender" target="_blank">@gamalielrender</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/09/2018</p></td>
+                      <td align="center"><p class="table_results">23:22:33</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/VirginiaVinuesa/status/1005591004257443841" target="_blank">RT @Ens_bilingue: CLIL = enseñanza de contenidos de materias “no lingüísticas “? En absoluto. 
+CLIL más allá de la enseñanza bilingüe 
+@Vir…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPad</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/668580587003912194/gSNiuN-l.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/668580587003912194/gSNiuN-l.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/VirginiaVinuesa" target="_blank">@VirginiaVinuesa</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/09/2018</p></td>
+                      <td align="center"><p class="table_results">20:18:29</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/SantaMarinaCEIP/status/1005544682250784775" target="_blank">RT @Ens_bilingue: CLIL = enseñanza de contenidos de materias “no lingüísticas “? En absoluto. 
+CLIL más allá de la enseñanza bilingüe 
+@Vir…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1002122154283020289/Dw6q4ycA.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1002122154283020289/Dw6q4ycA.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/SantaMarinaCEIP" target="_blank">@SantaMarinaCEIP</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/09/2018</p></td>
+                      <td align="center"><p class="table_results">12:17:38</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/SantandreuCris/status/1005423676420960257" target="_blank">RT @sudiglesias: Today @cdevalor is teaching about CSR at @urjc !! Thanks @c_loste for your time and passion!! 👏❤ https://t.co/tzULadZqb6</a></td>
+                                                                  <td align="center"><p class="table_results">
+                          <a href="http://pbs.twimg.com/media/DbI-5xOX0AAX1j1.jpg" target="_blank"><img src="http://pbs.twimg.com/media/DbI-5xOX0AAX1j1.jpg" width=100 height=100 border="1"></a>
+                                                                  </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/959002947551186944/QiP9rCaS.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/959002947551186944/QiP9rCaS.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/SantandreuCris" target="_blank">@SantandreuCris</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/09/2018</p></td>
+                      <td align="center"><p class="table_results">12:17:34</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/SantandreuCris/status/1005423655684321285" target="_blank">RT @ciberimaginario: Anti-foreign Attitudes and State Legitimacy in Germany and United
+Kingdom, @ablancoglez @urjc #GCAMadrid https://t.co/…</a></td>
+                                                                  <td align="center"><p class="table_results">
+                          <a href="http://pbs.twimg.com/media/DdZ23DaWsAEs72J.jpg" target="_blank"><img src="http://pbs.twimg.com/media/DdZ23DaWsAEs72J.jpg" width=100 height=100 border="1"></a>
+                                                                  </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/959002947551186944/QiP9rCaS.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/959002947551186944/QiP9rCaS.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/SantandreuCris" target="_blank">@SantandreuCris</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/09/2018</p></td>
+                      <td align="center"><p class="table_results">11:36:02</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Ens_bilingue/status/1005413206410571781" target="_blank">RT @Ens_bilingue: CLIL = enseñanza de contenidos de materias “no lingüísticas “? En absoluto. 
+CLIL más allá de la enseñanza bilingüe 
+@Vir…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/733213377594560512/8XIOXu6_.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/733213377594560512/8XIOXu6_.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Ens_bilingue" target="_blank">@Ens_bilingue</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/09/2018</p></td>
+                      <td align="center"><p class="table_results">11:34:27</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/CIEB2018/status/1005412806781558784" target="_blank">RT @Ens_bilingue: CLIL = enseñanza de contenidos de materias “no lingüísticas “? En absoluto. 
+CLIL más allá de la enseñanza bilingüe 
+@Vir…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1000061392165187589/YagNLYSl.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1000061392165187589/YagNLYSl.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/CIEB2018" target="_blank">@CIEB2018</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/09/2018</p></td>
+                      <td align="center"><p class="table_results">09:20:07</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Ens_bilingue/status/1005378998959067136" target="_blank">CLIL = enseñanza de contenidos de materias “no lingüísticas “? En absoluto. 
+CLIL más allá de la enseñanza bilingüe… https://t.co/QgtiCbDSmE</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Hootsuite</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/733213377594560512/8XIOXu6_.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/733213377594560512/8XIOXu6_.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Ens_bilingue" target="_blank">@Ens_bilingue</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/08/2018</p></td>
+                      <td align="center"><p class="table_results">18:37:07</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/markus_and/status/1005156785680994304" target="_blank">@derecho_urjc @elmundotoday La credibilidad de la URJC se tiró por la borda por culpa de sus propios trapicheos. No… https://t.co/MdLQBHpcCF</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/507480496214142976/rVybxH70.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/507480496214142976/rVybxH70.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/markus_and" target="_blank">@markus_and</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/08/2018</p></td>
+                      <td align="center"><p class="table_results">18:06:49</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/lucap261/status/1005149161023471617" target="_blank">RT @jgbarah: At the presentation of the degree thesis &#34;Tool to massively identify and extract artifacts from GitHub&#34;  by @Mghfdez (advisor:…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1687479083/foto.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1687479083/foto.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/lucap261" target="_blank">@lucap261</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/08/2018</p></td>
+                      <td align="center"><p class="table_results">10:13:06</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/torralba59/status/1005029947721895936" target="_blank">RT @ftmaestre: I am happy to see that the @Maestrelab is the main group  contributing to the values of the #NatureIndex for the @urjc , wit…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/914118395204915200/phTveDTv.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/914118395204915200/phTveDTv.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/torralba59" target="_blank">@torralba59</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/08/2018</p></td>
+                      <td align="center"><p class="table_results">09:11:08</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/CSLab_UPF/status/1005014350757793792" target="_blank">RT @ftmaestre: I am happy to see that the @Maestrelab is the main group  contributing to the values of the #NatureIndex for the @urjc , wit…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/933108310701572097/CEwG2EJh.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/933108310701572097/CEwG2EJh.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/CSLab_UPF" target="_blank">@CSLab_UPF</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/08/2018</p></td>
+                      <td align="center"><p class="table_results">07:36:25</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/HugoSaizB/status/1004990516264566790" target="_blank">RT @ftmaestre: I am happy to see that the @Maestrelab is the main group  contributing to the values of the #NatureIndex for the @urjc , wit…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/794861645570809856/Ne-A2xS_.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/794861645570809856/Ne-A2xS_.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/HugoSaizB" target="_blank">@HugoSaizB</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/08/2018</p></td>
+                      <td align="center"><p class="table_results">07:36:10</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/JosepSardanyes/status/1004990453157154816" target="_blank">RT @ftmaestre: I am happy to see that the @Maestrelab is the main group  contributing to the values of the #NatureIndex for the @urjc , wit…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/898786229394821120/Z5RlseIK.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/898786229394821120/Z5RlseIK.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/JosepSardanyes" target="_blank">@JosepSardanyes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/08/2018</p></td>
+                      <td align="center"><p class="table_results">07:19:00</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/ftmaestre/status/1004986133854420992" target="_blank">I am happy to see that the @Maestrelab is the main group  contributing to the values of the #NatureIndex for the… https://t.co/AAmjI5vm3o</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">TweetDeck</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/902401674089725952/zuxkKBoC.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/902401674089725952/zuxkKBoC.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/ftmaestre" target="_blank">@ftmaestre</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/07/2018</p></td>
+                      <td align="center"><p class="table_results">21:18:17</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/CHAMMSE/status/1004834957997498368" target="_blank">RT @AdApta_Lab: WANTED! We are looking for somebody to join our team and work in the Farmer&#39;s Pride European project. We are working with E…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1003211839193468929/b0AbMAM9.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1003211839193468929/b0AbMAM9.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/CHAMMSE" target="_blank">@CHAMMSE</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/07/2018</p></td>
+                      <td align="center"><p class="table_results">20:15:48</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/ETSIT_URJC/status/1004819231198859265" target="_blank">RT @jgbarah: Meet @Obijuan_cube , a great maker who has helped waves of people to become makers and #FreeSoftware lovers https://t.co/BOgdH…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/911512412838400000/eTbo19rB.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/911512412838400000/eTbo19rB.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/ETSIT_URJC" target="_blank">@ETSIT_URJC</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/07/2018</p></td>
+                      <td align="center"><p class="table_results">19:27:40</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/ETSIT_URJC/status/1004807118225117185" target="_blank">RT @sehnaoui: Today we remember Alan Turing (23 June 1912 - 7 June 1954). Scientist, mathematician, cryptanalyst, theoretical biologist &amp;amp; t…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/911512412838400000/eTbo19rB.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/911512412838400000/eTbo19rB.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/ETSIT_URJC" target="_blank">@ETSIT_URJC</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/07/2018</p></td>
+                      <td align="center"><p class="table_results">19:27:25</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/ETSIT_URJC/status/1004807059198631942" target="_blank">RT @TheOfficialACM: On June 4, John Hennessy and David Patterson delivered their join #ACMTuringAward lecture at ISCA 2018 in Los Angeles,…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/911512412838400000/eTbo19rB.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/911512412838400000/eTbo19rB.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/ETSIT_URJC" target="_blank">@ETSIT_URJC</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/07/2018</p></td>
+                      <td align="center"><p class="table_results">10:40:22</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/MLuRuTe/status/1004674421326598145" target="_blank">RT @AdApta_Lab: WANTED! We are looking for somebody to join our team and work in the Farmer&#39;s Pride European project. We are working with E…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/950126855100813319/jDv8VbyY.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/950126855100813319/jDv8VbyY.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/MLuRuTe" target="_blank">@MLuRuTe</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">06/07/2018</p></td>
+                      <td align="center"><p class="table_results">08:58:44</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/PabloBalandra/status/1004648844985012224" target="_blank">RT @MasterGlobalA: The application process is still open until June 15th! 📥 This edition is an amazing opportunity for our students, who wi…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/697817364612534276/YGsShbGR.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/697817364612534276/YGsShbGR.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/PabloBalandra" target="_blank">@PabloBalandra</a></p></td>
+                    </tr>
+                                          </table>
+              <p class="results">Total: 42 results.</p>
+        
+
+                <h2>Search by coordinates</h2>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                <br><br>
+                
+		    <h2>Geolocated Users</h2>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                <br><br>
+                		
+		<h2>Tagged Users</h2>
+                <table class="client_app" width="970" border="0">
+                    <tr bgcolor="1c75bc">
+                      <td height="25" align="center" colspan="2"><p><font color="white">TAGGED USER</font></p></td>
+                      <td align="center" colspan="2"><p><font color="white">TAGGED BY</font></p></td>
+                      <td align="center"><p><font color="white">DATE</font></p></td>
+                      <td align="center"><p><font color="white">TIME</font></p></td>
+                      <td align="center"><p><font color="white">MEDIA</font></p></td>
+                      <td align="center"><p><font color="white">TWEET</font></p></td>
+                      <td align="center" colspan="2"><p><font color="white">COORDINATES</font></p></td>
+                    </tr>
+                                         
+                                  </table>
+              <p class="results">Total: 0 results.</p>
+                  
+            </div><!--#end search table--> 
+
+
+            <div id="conversations">
+                <a id="conversation" name="conversation"></a>
+                <h3>User Conversations</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end conversations-->
+            <p class="results"><br></p>
+
+
+        </div><!--#end datos-->
+        <div id="footer">
+        <p class="footer">www.vicenteaguileradiaz.com</p>
+        <p class="footer_link"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="CC" alt="Licencia de Creative Commons" border="0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span class="footer_link" xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><b>Tinfoleak</b></span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Vicente Aguilera Díaz</span> is licensed under a <a class="footer_link" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional License</a>.</p>
+        </div>
+</div>  <!--#end contenido-->
+</body>
+</html>

@@ -1,0 +1,81 @@
+intitle:index.of config.php
+inurl:config.php dbuname dbpass
+intitle:index.of cgiirc.config
+inurl:cgiirc.config
+eggdrop filetype:user user
+inurl:zebra.conf intext:password -sample -test -tutorial -download
+inurl:ospfd.conf intext:password -sample -test -tutorial -download
+filetype:conf inurl:psybnc.conf "USER.PASS="
+inurl:"ViewerFrame?Mode="
+filetype:ora ora
+filetype:conf oekakibbs
+inurl:"plog/register.php"
+filetype:config config intext:appSettings "User ID"
+"powered by YellDL"
+ext:asp "powered by DUForum" inurl:(messages|details|login|default|register) -site:duware.com
+filetype:config web.config -CVS
+filetype:mdb inurl:"news/news"
+filetype:pl -intext:"/usr/bin/perl" inurl:webcal (inurl:webcal | inurl:add | inurl:delete | inurl:config)
+intitle:index.of WEB-INF
+"Powered by Zorum 3.5"
+intext:"enable password 7"
+intitle:"PHP TopSites FREE Remote Admin"
+ext:yml database inurl:config
+"Powered by UPB" (b 1.0)|(1.0 final)|(Public Beta 1.0b)
+(intitle:"WordPress ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº Setup Configuration File")|(inurl:"setup-config.php?step=")
+intitle:"igenus webmail login"
+intitle:admbook intitle:version filetype:php
+intitle:index.of.config
+inurl:-cfg intext:"enable password"
+"visiteurs v2.0"
+allinurl:/modernbill/
+inurl:"config.php.new" +vbulletin
+inurl:config/databases.yml -trac -trunk -"Google Code" -source -repository
+inurl:web/frontend_dev.php -trunk
+filetype:ini "SavedPasswords" (pass|passwd|password|pwd)
+allinurl:forcedownload.php?file=
+inurl:"/includes/config.php"
+filetype:old (define)(DB_USER|DB_PASS|DB_NAME)
+filetype:cfg "radius" (pass|passwd|password)
+inurl:Settings.aspx intitle:Beyond TV
+inurl:newsnab/www/ automated.config.php
+runtimevar softwareVersion=
+filetype:config inurl:web.config inurl:ftp
+inurl:/voice/advanced/ intitle:Linksys SPA configuration
+filetype:txt inurl:wp-config.txt
+site:github.com inurl:sftp-config.json intext:/wp-content/
+site:github.com inurl:sftp-config.json
+inurl:config "fetch = +refs/heads/*:refs/remotes/origin/*"
+intext:5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8 AND (ext:txt OR ext:csv OR ext:xls OR ext:lst)
+inurl:"installer-log.txt" intext:"DUPLICATOR INSTALL-LOG"
+inurl:fckeditor -intext:"ConfigIsEnabled = False" intext:ConfigIsEnabled
+"Config" intitle:"Index of" intext:vpn
+inurl:wp-admin/admin-ajax.php inurl:wp-config.php
+intext:index of sym
+"Password=" inurl:web.config -intext:web.config ext:config
+inurl:wp-config -intext:wp-config "'DB_PASSWORD'"
+inurl:github.com intitle:config intext:"/msg nickserv identify"
+intitle:"index of/" CCCam.cfg
+inurl:"-wp13.txt"
+inurl:"Makefile.in" ext:in
+"Section" inurl:"xorg.conf" ext:conf -wiki
+inurl:"idx_config"
+inurl:app/config/ intext:parameters.yml intitle:index.of
+inurl:"/wp-admin/setup-config.php" intitle:"Setup Configuration File"
+intext:connectionString & inurl:web & ext:config
+inurl:composer.json filetype:json -site:github.com
+ext:inf SetupMgrTag AdminPassword
+ext:config + " password=" + "
+intitle:"Index Of" intext:sftp-config.json
+allinurl:awstats.pl?config=
+"database_password" filetype:yml "config/parameters.yml"
+"database_password" filetype:yml "config/parameters.yml
+inurl:"/etc/fail2ban/" + ext:conf
+inurl:"/forms/frmservlet?config=" login
+inurl:"apps/backend/config/"
+config.yaml intitle:"index of" vagrantfile
+intitle:"Index Of" intext:".vscode"
+inurl:"config.xml" "password" ext:xml -stackoverflow.com -github.com
+filetype:config "" "password" "web.config" -stackoverflow -youtube.com -github
+ext:txt {"wallet_address" :", "pool_address" : " ", "pool_password" -git
+inurl:"/App.Config" + ext:config + "password=" -github -git

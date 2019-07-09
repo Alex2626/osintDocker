@@ -1,0 +1,16 @@
+1,2d0
+< 193.147.53.169	8080	aviano.tsc.urjc.es	
+< 212.128.3.3	80	carabinero.escet.urjc.es	
+3a2,4
+> 212.128.240.88	443	infotic.urjc.es	
+> 212.128.240.7	443	soporte.urjc.es	
+> 193.147.53.189	8080	avedelparaiso.tsc.urjc.es	
+6,7d6
+< 193.147.53.189	8080	avedelparaiso.tsc.urjc.es	
+< 212.128.240.7	443	soporte.urjc.es	
+9,10c8,9
+< 212.128.3.3	443	carabinero.escet.urjc.es	
+< 212.128.3.4	443	centollo.escet.urjc.es	
+---
+> 193.147.56.3	8888	talio.alumnos.urjc.es	
+> 193.147.61.12	8080	bayes.etsii.urjc.es	

@@ -1,0 +1,24 @@
+dork: all filetype:pdf
++ /url?q=https://www.urjc.es/images/EstudiarURJC/Admision_matricula/grado/pruebas_acceso/modelos_examenes/INGLES.pdf&sa=U&ved=0ahUKEwib69DKjpncAhULDOwKHY53B7wQFggXMAE&usg=AOvVaw2ePfrVfOrAk-4eo0oVDPze
++ /url?q=https://www.urjc.es/images/Internacional/erasmus%2520y%2520movilidad/erasmus%2520plus/incoming/Guia_incoming_17_18.pdf&sa=U&ved=0ahUKEwib69DKjpncAhULDOwKHY53B7wQFggcMAI&usg=AOvVaw2iywej_9ss0BfxWAakhgHl
++ /url?q=http://www.urjc.es/images/Internacional/erasmus%2520y%2520movilidad/erasmus%2520plus/incoming/Handbook%2520Eng%2520.pdf&sa=U&ved=0ahUKEwib69DKjpncAhULDOwKHY53B7wQFggiMAM&usg=AOvVaw0wH3l3nHH6YoJu4SaJzSau
+
++ /url?q=http://www.urjc.es/images/Noticias/Agenda/premios/2018/PremioGrabadoIngl%25C3%25A9s.pdf&sa=U&ved=0ahUKEwib69DKjpncAhULDOwKHY53B7wQFgg_MAg&usg=AOvVaw0X5nNmT9m6mRaU5ZxPbW9T
++ /url?q=https://www.urjc.es/images/Estudios/masteres_ingles/busines_organization/horario.pdf%3Fml%3D1%26iframe%3D1&sa=U&ved=0ahUKEwib69DKjpncAhULDOwKHY53B7wQFghEMAk&usg=AOvVaw2gjXloJN2HYNRbzzPL_fpP
++ /url?q=https://www.urjc.es/images/ceib/revista_electronica/vol_5_2011_2/REIB_05_02_Cuenca.pdf&sa=U&ved=0ahUKEwib69DKjpncAhULDOwKHY53B7wQFghJMAo&usg=AOvVaw3iIDno5wdB04VZXj0FyaSQ
+dork: ﻿inurl:robots.txt 
++ /url?q=http://www.urjc.es/robots.txt&sa=U&ved=0ahUKEwia7__KjpncAhVBCewKHfbAAFoQFggUMAA&usg=AOvVaw0TEPuiCcsEKrCSJwp2-jW7
+dork: all filetype:xls 
+dork: intext:(username | userid | user)
++ /url?q=http://www.urjc.es/pt/principal-intranet/internacional-intranet&sa=U&ved=0ahUKEwi3zLrLjpncAhUQ36QKHS0aA0EQFggUMAA&usg=AOvVaw3TC4EKRHB55dCebRQafqje
++ /url?q=http://www.urjc.es/en/principal-intranet/programa-de-formacion/formacion-docencia-universitaria/1108-informacion-general&sa=U&ved=0ahUKEwi3zLrLjpncAhUQ36QKHS0aA0EQFggZMAE&usg=AOvVaw1KMrv6stg3UDAomsbQQa4R
++ /url?q=https://www.urjc.es/ru/user&sa=U&ved=0ahUKEwi3zLrLjpncAhUQ36QKHS0aA0EQFggeMAI&usg=AOvVaw2AV5qXnWhZZ0jdDwBYlosg
++ /url?q=https://www.urjc.es/zh/universidad/facultades/facultad-de-ciencias-de-la-comunicacion/1317-convocatoria-mentores&sa=U&ved=0ahUKEwi3zLrLjpncAhUQ36QKHS0aA0EQFggjMAM&usg=AOvVaw0iluBKNt4NzB00a9OCoAEB
++ /url?q=https://www.urjc.es/en/principal-intranet/programa-de-formacion/formacion-usuarios-biblioteca&sa=U&ved=0ahUKEwi3zLrLjpncAhUQ36QKHS0aA0EQFggoMAQ&usg=AOvVaw3g0ouuijYTLRz8WLlZcFyI
++ /url?q=https://www.urjc.es/user%3Fview%3Dreset&sa=U&ved=0ahUKEwi3zLrLjpncAhUQ36QKHS0aA0EQFggtMAU&usg=AOvVaw0vCxfllulOjbW_gynXHXU2
++ /url?q=https://www.urjc.es/en/universidad/facultades/facultad-de-ciencias-de-la-comunicacion/1317-convocatoria-mentores&sa=U&ved=0ahUKEwi3zLrLjpncAhUQ36QKHS0aA0EQFggyMAY&usg=AOvVaw2jhNtJ_C0gYg_oIJSChx3K
++ /url?q=https://www.urjc.es/ru/user%3Fview%3Dremind&sa=U&ved=0ahUKEwi3zLrLjpncAhUQ36QKHS0aA0EQFgg3MAc&usg=AOvVaw3BtQxk-HMv_VKesS5r-Gow
++ /url?q=https://www.urjc.es/ru/user%3Fview%3Dreset&sa=U&ved=0ahUKEwi3zLrLjpncAhUQ36QKHS0aA0EQFgg8MAg&usg=AOvVaw0qMsd-cOm6u5TIye6rJBEi
++ /url?q=https://www.urjc.es/en/user%3Fview%3Dreset&sa=U&ved=0ahUKEwi3zLrLjpncAhUQ36QKHS0aA0EQFghBMAk&usg=AOvVaw0oIUdWJ_cTqWrPrI2BH8Ta
+TypeError: Attempting to change the setter of an unconfigurable property.
+TypeError: Attempting to change the setter of an unconfigurable property.

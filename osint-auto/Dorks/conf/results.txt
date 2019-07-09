@@ -1,0 +1,12 @@
+resume __www_urjc_es.json
+dork: "ORA-12541: TNS:no listener" intitle:"error occurred"
+dork: intitle:"Live View / - AXIS"
+The source list for Content Security Policy directive 'script-src' contains an invalid source: ''nonce-t0EF7kT4ZWbaYfRRiq3Zpl9luJU''. It will be ignored.
+The source list for Content Security Policy directive 'script-src' contains an invalid source: ''strict-dynamic''. It will be ignored.
+The source list for Content Security Policy directive 'script-src' contains an invalid source: ''nonce-t0EF7kT4ZWbaYfRRiq3Zpl9luJU''. It will be ignored.
+The source list for Content Security Policy directive 'script-src' contains an invalid source: ''strict-dynamic''. It will be ignored.
+The source list for Content Security Policy directive 'script-src' contains an invalid source: ''nonce-t0EF7kT4ZWbaYfRRiq3Zpl9luJU''. It will be ignored.
+The source list for Content Security Policy directive 'script-src' contains an invalid source: ''strict-dynamic''. It will be ignored.
+The source list for Content Security Policy directive 'script-src' contains an invalid source: ''nonce-OzWbpukEdaW3mg6mUvCt3AKE4XE''. It will be ignored.
+The source list for Content Security Policy directive 'script-src' contains an invalid source: ''strict-dynamic''. It will be ignored.
+dork: "sets mode: +p"

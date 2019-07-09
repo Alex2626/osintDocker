@@ -1,0 +1,31 @@
+,TINFOLEAK Report
+,Vicente Aguilera Díaz
+,@VAguileraDiaz
+,www.isecauditors.com
+""
+,>>> Date:,2018-06-07
+,>>> Time:,10:03
+,>>> Analyzed user:,urjc
+,>>> Information:,Followers
+""
+#,ID,USERNAME,SCREEN NAME,DESCRIPTION,PROFILE IMAGE URL,PROFILE BANNER URL,CREATED AT,LOCATION,TIME_ZONE,GEO ENABLED,FOLLOWERS COUNT,FRIENDS COUNT,STATUSES COUNT,LISTED COUNT,FAVOURITES COUNT,USER VERIFIED,USER LANG
+1,917882924632084480,Caramela,CarmeletaLaSal,'La història pesa massa i el futur no té cap garantia',http://pbs.twimg.com/profile_images/919858471205572608/maWtAL_J_normal.jpg,,2017-10-10 22:41:57,País Valencià,,False,62,123,1984,0,3827,False,ca
+2,65818509,Vanessa C. Muñoz B.,legalservicePTY,"Enamorada del mar, amante de la naturaleza,  Abogada y defensora de las causas justas. 🙏Jesús, en ti Confío.😍 Email:legalservice@cwpanama.net",http://pbs.twimg.com/profile_images/1004540942366359552/8I9qSz5S_normal.jpg,http://abs.twimg.com/images/themes/theme1/bg.png,2009-08-15 03:52:40,Panamá,,True,1873,4532,2141,11,5666,False,es
+3,975099685580017664,uciHUIE,uciHUIE,Twiter oficial del Servicio de Medicina Intensiva. Hospital Universitario Infanta Elena.,http://pbs.twimg.com/profile_images/975109585710342146/ScJ4oMD8_normal.jpg,,2018-03-17 20:00:56,Valdemoro. Madrid. Spain,,False,31,181,58,0,80,False,es
+4,998872041079103488,NetsWorld.es,netsworld_,NetsWorld - Redes del Mundo,http://pbs.twimg.com/profile_images/1003238970971639808/XET6wfjd_normal.jpg,,2018-05-22 10:23:47,,,False,43,371,33,0,31,False,es
+5,969801817,Nuria Molina,nuriaangelabrun,"Comienzo de una nueva etapa, a ciegas pero sin miedo, puedo con todo! Mi fuerza: mi familia, mi apoyo: mis amigos.",http://pbs.twimg.com/profile_images/762198049959604224/f_6f87fA_normal.jpg,http://abs.twimg.com/images/themes/theme1/bg.png,2012-11-25 10:25:52,"Comunidad de Madrid, España",,False,211,180,9404,19,3084,False,es
+6,1004409792117518337,El paju,paju_el,"El paju soy y aquí estoy para seguirte en silencio ( o a gritos ). Fantasmón a tiempo completo pero sin fardar demasiado. Series, pelis, humor gráfico y demás",http://pbs.twimg.com/profile_images/1004411160412729344/YsoSmV5o_normal.jpg,http://abs.twimg.com/images/themes/theme1/bg.png,2018-06-06 17:08:50,"Fuenlabrada, España",,False,2,58,4,0,11,False,en
+7,2173638359,Álvaro,alvarolovi9,Andrea Garcia Garzás ❤️,http://pbs.twimg.com/profile_images/1001237767668621313/GCWUg0mE_normal.jpg,http://abs.twimg.com/images/themes/theme1/bg.png,2013-11-08 17:54:14,"Valdemoro, España",,True,304,400,1310,0,248,False,es
+8,991988615457787905,El Pilar de Gredos,ElPilardeGredos,,http://pbs.twimg.com/profile_images/997499301562466304/zWdtnLOm_normal.jpg,,2018-05-03 10:31:31,,,False,1,261,2,0,2,False,es
+9,849269306198196225,Javier Herrero,Javi_CTO,,http://pbs.twimg.com/profile_images/948885449891827712/kZFs5BD5_normal.jpg,,2017-04-04 14:35:56,,,False,14,107,14,0,1,False,es
+10,960251280764604417,Javier,javi_cher,📚Derecho+ Ciencias Políticas y Gestión Pública URJC 🍊Coordino el GL de @CiudadanosCs en Serranillos del Valle,http://pbs.twimg.com/profile_images/1002985591368245250/fM7BLm3P_normal.jpg,,2018-02-04 20:38:40,"Serranillos del Valle, España",,False,78,149,361,0,564,False,en
+11,913366724254322688,Julio Guillen,JulioGuillen_,Profesor Visitante Lector @etsii_urjc @urjc. Cuenta personal.,http://pbs.twimg.com/profile_images/1004361024621957120/8HZLuHxd_normal.jpg,,2017-09-28 11:36:11,"Madrid, Comunidad de Madrid",,False,4,35,0,0,0,False,es
+12,64615606,Marlon Molina,MarlonMolina,"Technology enthusiast, I love to see how the World is being transformed by humans with Technology. I tweet in English and Spanish",http://pbs.twimg.com/profile_images/1342642678/blog2_normal.jpg,http://abs.twimg.com/images/themes/theme18/bg.gif,2009-08-11 03:43:42,Madrid,,True,16641,1509,54775,466,5129,False,es
+13,36368015,Andrea Samaniego,AndreSamaniego_,Lojana | Reportera de noticias en @Teleamazonasec | ex estudiante @UTPL y @UASBEcuador | Ecuador,http://pbs.twimg.com/profile_images/966469012795330561/elgQhl9C_normal.jpg,http://abs.twimg.com/images/themes/theme9/bg.gif,2009-04-29 14:21:39,Quito,,True,6072,977,17494,73,880,False,es
+14,842335532847910912,Ana,AnitaArnay,🌲🌻🍁🌵,http://pbs.twimg.com/profile_images/966782366206263296/cIajJJkz_normal.jpg,,2017-03-16 11:23:35,"Madrid, España",,False,19,97,650,0,148,False,es
+15,990406153678049280,Tinion,Tinion3,I am not tiny,http://pbs.twimg.com/profile_images/993253376753389574/phFqImmI_normal.jpg,,2018-04-29 01:43:22,"Madrid, España",,False,1,10,77,0,44,False,en
+16,902148463898570752,OTT-FISEVI,ott_fisevi,"Oficina de Transferencia de Tecnología de FISEVI (OTT-FISEVI), cuya misión es gestionar la transferencia de ideas desde la investigación hasta la sociedad",http://pbs.twimg.com/profile_images/902149038459506688/6ZSadEXk_normal.jpg,http://abs.twimg.com/images/themes/theme1/bg.png,2017-08-28 12:38:49,"Sevilla, Andalucía",,True,262,1663,177,2,25,False,es
+17,742364921359372288,CAE Innovación,CaeInnovacion,Líder en implantación de cálculo por elementos finitos y en simulación CAE de procesos.,http://pbs.twimg.com/profile_images/969486188213166080/ZzZiGUwT_normal.jpg,,2016-06-13 14:36:04,España,,False,338,1712,91,3,35,False,es
+18,2325434888,Segovia Joven,segoviajoven,Concejalía de Educación y Juventud del Ayuntamiento de Segovia,http://pbs.twimg.com/profile_images/881756753280552960/YHqbleZl_normal.jpg,http://abs.twimg.com/images/themes/theme1/bg.png,2014-02-03 13:00:44,Casa Joven,,False,2745,1116,6512,64,1792,False,es
+19,123711620,Lucy Mercado,Lucythania,"Soy madre, esposa y empleada privada.  Me encanta estar con mi familia y mis amigos.  Creo en Dios por sobretodas las cosas.",http://pbs.twimg.com/profile_images/2313163573/2vsp11qnfk0224oi3qa5_normal.jpeg,http://abs.twimg.com/images/themes/theme4/bg.gif,2010-03-17 00:40:30,Santo Domingo,,False,85,364,21,1,26,False,es
+20,255841077,MartinCruzColin,MartinCruzColin,Autodidacta,http://pbs.twimg.com/profile_images/674697630174195712/-nTimFW4_normal.png,http://abs.twimg.com/images/themes/theme14/bg.gif,2011-02-22 04:21:46,Centro,,False,14,132,94,0,3,False,es

@@ -1,0 +1,15 @@
+1,2d0
+< 193.147.53.169	8080	aviano.tsc.urjc.es	
+< 212.128.3.3	80	carabinero.escet.urjc.es	
+4,6d1
+< 193.147.61.192	8080	MO-LAB3-S09-12.escet.urjc.es	
+< 212.128.240.6	443	info.urjc.es	
+< 193.147.53.189	8080	avedelparaiso.tsc.urjc.es	
+8,10c3,5
+< 212.128.243.74	8080	mo-dep1-d116-01.escet.urjc.es	
+< 212.128.3.3	443	carabinero.escet.urjc.es	
+< 212.128.3.4	443	centollo.escet.urjc.es	
+---
+> 212.128.240.6	443	info.urjc.es	
+> 193.147.61.192	8080	MO-LAB3-S09-12.escet.urjc.es	
+> 193.147.53.169	8080	aviano.tsc.urjc.es	

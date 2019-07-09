@@ -1,0 +1,25 @@
+dork: all filetype:pdf
++ https://www.urjc.es/images/EstudiarURJC/Admision_matricula/grado/pruebas_acceso/modelos_examenes/INGLES.pdf
++ https://www.urjc.es/images/Internacional/erasmus%20y%20movilidad/erasmus%20plus/incoming/Guia_incoming_17_18.pdf
++ http://www.urjc.es/images/Internacional/erasmus%20y%20movilidad/erasmus%20plus/incoming/Handbook%20Eng%20.pdf
++ https://www.urjc.es/images/Internacional/centro_de_idiomas/programmaCILS.pdf
++ http://www.urjc.es/images/Noticias/Agenda/cursos/2018/Introduction%20to%20US%20Law%202018%20syllabus.pdf
++ http://www.urjc.es/images/Internacional/estudiantes_internacionales/intercambio/HOW_TO_APPLY_ONLINE.pdf
+
++ https://www.urjc.es/images/ceib/revista_electronica/vol_5_2011_2/REIB_05_02_Cuenca.pdf
+dork: ﻿inurl:robots.txt 
++ http://www.urjc.es/robots.txt
+dork: all filetype:xls 
+dork: intext:(username | userid | user)
++ http://www.urjc.es/pt/principal-intranet/internacional-intranet
++ http://www.urjc.es/en/principal-intranet/programa-de-formacion/formacion-docencia-universitaria/1108-informacion-general
++ https://www.urjc.es/ru/user
++ https://www.urjc.es/zh/universidad/facultades/facultad-de-ciencias-de-la-comunicacion/1317-convocatoria-mentores
++ https://www.urjc.es/en/principal-intranet/programa-de-formacion/formacion-usuarios-biblioteca
++ https://www.urjc.es/user?view=reset
++ https://www.urjc.es/en/universidad/facultades/facultad-de-ciencias-de-la-comunicacion/1317-convocatoria-mentores
++ https://www.urjc.es/ru/user?view=remind
++ https://www.urjc.es/ru/user?view=reset
++ https://www.urjc.es/en/user?view=reset
+TypeError: Attempting to change the setter of an unconfigurable property.
+TypeError: Attempting to change the setter of an unconfigurable property.

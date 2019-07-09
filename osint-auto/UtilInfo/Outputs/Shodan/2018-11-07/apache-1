@@ -1,0 +1,54 @@
+1,9c1,10
+< 193.147.53.160	8081	zarapito.tsc.urjc.es	
+< 212.128.3.3	80	carabinero.escet.urjc.es	
+< 193.147.61.192	8080	MO-LAB3-S09-12.escet.urjc.es	
+< 212.128.240.6	443	info.urjc.es	
+< 212.128.243.74	8080	mo-dep1-d116-01.escet.urjc.es	
+< 193.147.184.15	80	fris.urjc.es	
+< 212.128.254.4	80	labs.gsyc.urjc.es	
+< 193.147.53.171	8081	alcotan.tsc.urjc.es	
+< 193.147.53.171	443	alcotan.tsc.urjc.es	
+---
+> 193.147.79.59	8081	pamina2.gsyc.urjc.es	
+> 212.128.240.24	80	tux.urjc.es	
+> 193.147.184.41	8080	chaplin.urjc.es	
+> 212.128.240.88	443	infotic.urjc.es	
+> 212.128.1.223	80	jespa.escet.urjc.es	
+> 193.147.184.21	443	io.pruebas.urjc.es	
+> 193.147.79.196	80	postre.gsyc.urjc.es	
+> 193.147.63.45	80	platon.etsii.urjc.es	
+> 212.128.240.87	443	cau.urjc.es	
+> 212.128.240.23	443	gente.urjc.es	
+10a12
+> 212.128.246.14	80	rp-246014.rct.urjc.es	
+12,14c14,15
+< 193.147.184.41	443	chaplin.urjc.es	
+< 193.147.58.63	443	fo-bib1-b107-02.cct.urjc.es	
+< 212.128.240.24	80	tux.urjc.es	
+---
+> 212.128.240.63	443	millet.urjc.es	
+> 212.128.240.74	443	moodlep.urjc.es	
+16c17,21
+< 212.128.246.14	443	rp-246014.rct.urjc.es	
+---
+> 212.128.240.6	443	info.urjc.es	
+> 212.128.243.74	8080	mo-dep1-d116-01.escet.urjc.es	
+> 193.147.79.60	8081	pamina.gsyc.urjc.es	
+> 193.147.14.98	443	pruebas.cs.urjc.es	
+> 212.128.254.24	443	theta04.aulas.gsyc.urjc.es	
+18,28c23,25
+< 212.128.3.3	443	carabinero.escet.urjc.es	
+< 193.147.184.41	80	chaplin.urjc.es	
+< 193.147.79.64	80	gsyc.urjc.es	
+< 212.128.240.23	443	gente.urjc.es	
+< 212.128.240.23	80	gente.urjc.es	
+< 212.128.246.14	80	rp-246014.rct.urjc.es	
+< 193.147.184.41	8080	chaplin.urjc.es	
+< 212.128.3.4	443	centollo.escet.urjc.es	
+< 193.147.63.45	443	platon.etsii.urjc.es	
+< 193.147.79.196	80	postre.gsyc.urjc.es	
+< 	
+---
+> 193.147.79.187	8081	pamina3.gsyc.urjc.es	
+> 193.147.184.15	80	fris.urjc.es	
+> 193.147.79.194	80	chica.gsyc.urjc.es	

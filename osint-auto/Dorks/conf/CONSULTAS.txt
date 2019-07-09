@@ -1,0 +1,11 @@
+﻿inurl:robots.txt
+all filetype:pdf
+intitle:"index of" private
+intitle:"index of" "backup files"
+inurl:admin
+inurl:config 
+intitle:index.of server.at “Apache/” 
+filetype:log inurl:log 
+inurl:temp | inurl:tmp | inurl:backup | inurl:temp | inurl.bak 
+ext:pwd inurl:_vti_pvt inurl:(Service | authors | administrators)
+intext:(username | userid | user) 

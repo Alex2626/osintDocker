@@ -1,0 +1,970 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic,300italic,300' rel='stylesheet' type='text/css'>
+<link href="style.css" rel='stylesheet' type='text/css'>
+
+<title>Tinfoleak Report</title>
+
+</head>
+
+<body>
+<!--cabecera-->
+    <div class="header">
+		<p class="datos_personales"><a href="https://twitter.com/VAguileraDiaz" target="_blank">@VAguileraDiaz</a> <a href="mailto:vaguilera@isecauditors.com" target="_blank">vaguilera@isecauditors.com</a> <a href="http://www.isecauditors.com" target="_blank">Internet Security Auditors</a> v2.1 [SHA2017 Edition]</p>
+	</div>
+    <!--#end cabecera-->
+    <!--contenido-->
+<a id="top" name="top"></a>
+<div id="container">    
+    <div id="content">
+    	<div id="title">
+        	<!--<h4>Tinfoleak v2.1 [SHA2017 Edition]</h4>-->
+            <img src="img/tinfoleak_logo.png" width="230" class="logo"/>
+        </div>
+    	<div id="foto_perfil">
+        	<a href="http://pbs.twimg.com/profile_images/824678874395115524/tHn3lVpH_400x400.jpg" target="_blank"><img class="perfil" src="http://pbs.twimg.com/profile_images/824678874395115524/tHn3lVpH_400x400.jpg" target="_blank" alt="usuario" width="100" height="100"></a><br />
+            <h1>tinfoleak</h1>
+             <p class="descripcion">The most complete open-source tool for Twitter intelligence analysis. #OSINT #SOCMINT #socialmedia</span></p>
+             
+             <center><p class="datos_perfil">Followers: <span><a href="http://www.twitter.com/tinfoleak/followers" target="_blank">243</a></span> | Following: <span><a href="http://www.twitter.com/tinfoleak/following" target="_blank">0</a></span> | Likes: <span><a href="http://www.twitter.com/tinfoleak/likes" target="_blank">53</a></span> <br /> Tweets: <span>58 (0.03 tweets/day)</span></p></center>
+             
+        </div><!--#end foto_perfil-->
+        
+        <div id="datos_usuario">
+            <div class="datos1">
+              <p class="datos_perfil">Screen Name: <a href="http://www.twitter.com/tinfoleak" target="_blank">tinfoleak</a></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Account Created at: <span>09/13/2013</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Verified: <span>False</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Twitter ID: <span>1861510189</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+	                    	<p class="datos_perfil">URL: <a href="http://www.vicenteaguileradiaz.com/tools" target="_blank">http://www.vicenteaguileradiaz.com/tools</a></p>
+	                <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Location: <span>Earth</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Time Zone: <span>None</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Geo enabled: <span>False</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Listed count: <span>5</span></p>
+              <br /><hr style="border: 0; border-bottom: 1px dashed #ccc; width:221px; margin-top: -15px; margin-left: 0;"/>
+              <p class="datos_perfil">Language: <span>es</span></p>
+            </div>
+
+      </div>
+    </div><!--#end content-->
+    
+      <div id="datos" width="970"> <!--# menu-->
+        <div id="client_apps">
+            <div class="one_third"> 
+            <center>
+            <ul class="button">
+				<li><a href="#client_apps">Apps</a></li>
+				<li><a href="#social">Social ID</a></li>
+				<li><a href="#hashtags">Hashtags</a></li>
+				<li><a href="#user_mentions">Mentions</a></li>
+        <li><a href="#favourites">Likes</a></li>
+				<li><a href="#tweets">Tweets</a></li>
+        <li><a href="#topwords">Words Freq</a></li>
+				<li><a href="#metadata">Metadata</a></li>
+				<li><a href="#media">Media</a></li>
+				<li><a href="#geo">Geo</a></li>
+				<li><a href="#search">Search</a></li>
+        <li><a href="#conversation">Conv</a></li>
+			</ul>
+        </center>
+        </div>
+
+       </div> <!--# end menu-->
+
+        <div id="datos">
+
+            <div id="client_apps">
+                <a id="client_args" name="client_args"></a>
+                <h3>Tinfoleak Arguments</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+
+                <table class="client_app" width="970" border="0">
+                    <tr bgcolor="1c75bc">
+                      <td height="25"><p><font color="white">ARGUMENTS</font></p></td>
+                      <td><p><font color="white">OPERATING SYSTEM</font></p></td>
+                    </tr>
+                    <tr>
+                      <td><p class="table_results">[&#39;./tinfoleak.py&#39;, &#39;-u&#39;, &#39;urjc&#39;, &#39;-t&#39;, &#39;200&#39;, &#39;-i&#39;, &#39;--sdate&#39;, &#39;2018-10-24&#39;, &#39;--edate&#39;, &#39;2018-10-31&#39;, &#39;--find&#39;, &#39;[+]cifuentes&#39;, &#39;--search&#39;, &#39;-o&#39;, &#39;S-cifuentes-2018-10-31.html&#39;]</p></td>
+                      <td><p class="table_results">posix - linux2</p></td>
+                    </tr>
+                </table>
+
+            </div><!--#end client_apps-->
+
+
+            <div id="client_apps">
+                <a id="client_apps" name="client_apps"></a>
+                <h3>Client Applications</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end client_apps-->
+
+            <!--social table-->
+             <div id="social_networks">
+                <a id="social" name="social"></a>
+                <h3>Social Networks</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                <br>
+                  
+            </div><!--#end social_networks-->
+
+            <!--hashtags table-->
+             <div id="hashtags">
+                <a id="hashtags" name="hashtags"></a>
+                <h3>Hashtags</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                
+                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                <br>
+                  
+                  </div><!--#end hashtags table--> 
+
+
+
+            <!--mentions table-->
+            <div id="client_apps">
+                <a id="user_mentions" name="user_mentions"></a>
+                <h3>User Mentions</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                                  </div><!--#end mentions table--> 
+
+
+            <!--favourites table-->            
+            <div id="favourites">
+            <a id="favourites" name="favourites"></a>
+                <h3>Likes</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                                 <br><br>
+            </div><!--#end favourites table--> 
+
+
+            <!--tweets table-->            
+            <div id="client_apps">
+            <a id="tweets" name="tweets"></a>
+                <h3>Tweets</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end tweets table--> 
+
+
+            <!--top words table-->            
+            <div id="client_apps">
+            <a id="topwords" name="topwords"></a>
+                <h3>Words Most used</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end tweets table--> 
+
+            
+            <!--metadata table-->            
+            <div id="client_apps">
+                <a id="metadata" name="media"></a>
+                <h3>METADATA </h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end images table--> 
+
+              <!--media table-->            
+            <div id="client_apps">
+                <a id="media" name="media"></a>
+                <h3>User images and videos</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end media table--> 
+            
+            <!--geo table-->            
+            <div id="client_apps">
+            <a id="geo" name="geo"></a>
+                <h3>Geolocation Information</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end geo table-->
+
+
+            <!--geo table-->            
+            <div id="client_apps">
+            <a id="search" name="search"></a>
+                <h3>Advanced Search</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                
+                <h2>Advanced Search</h2>
+                
+                <table class="client_app" width="970" border="0">
+                    <tr bgcolor="1c75bc">
+                      <td height="25"><p align="center"><font color="white">DATE</font></p></td>
+                      <td><p align="center"><font color="white">TIME</font></p></td>
+                      <td colspan="5"><p><font color="white">TWEET</font></p></td>
+                      <td><p align="center"><font color="white">MEDIA</font></p></td>
+                      <td colspan="2"><p><font color="white">APPLICATION</font></p></td>
+                      <td><p align="center"><font color="white">PROFILE IMG</font></p></td>
+                      <td><p align="center"><font color="white">USER</font></p></td>
+                    </tr>
+                                        <tr>
+                      <td align="center"><p class="table_results">10/30/2018</p></td>
+                      <td align="center"><p class="table_results">23:42:09</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/ManuelC239/status/1057417402739290112" target="_blank">Argente, H. and Alvarez, M. (2014). Semiología médica. 2nd ed. Buenos AIres [ etc.]: Médica Panamericana, pp.315,31… https://t.co/GPYuFqg1XU</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://abs.twimg.com/sticky/default_profile_images/default_profile.png" target="_blank"><img src="https://abs.twimg.com/sticky/default_profile_images/default_profile.png" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/ManuelC239" target="_blank">@ManuelC239</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/30/2018</p></td>
+                      <td align="center"><p class="table_results">15:37:03</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/cifuentes_alejo/status/1057295322748207105" target="_blank">@WheelerTSN I would say we also need a midfielder similar to B Cheyrou— he was so underrated and did a lot when gam… https://t.co/R6rRjxLF7K</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/929039665805643776/47D0CFvk.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/929039665805643776/47D0CFvk.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/cifuentes_alejo" target="_blank">@cifuentes_alejo</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/30/2018</p></td>
+                      <td align="center"><p class="table_results">14:51:57</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1057283972621877248" target="_blank">RT @BeckyLynchWWE: The baddest champ on the planet and Ronda Rousey. #SurvivorSeries #iamtheman https://t.co/u3wcfsnvfr</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/30/2018</p></td>
+                      <td align="center"><p class="table_results">10:41:29</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/DrWillN/status/1057220942567489536" target="_blank">RT @kristianmj: @timyvesmieke I think it&#39;s going to be good. We&#39;ve got @DrWillN of @TeamPrepster there, Elias Magnild from Transpolitisk Fo…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/692803268439883776/MkFqLtTM.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/692803268439883776/MkFqLtTM.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/DrWillN" target="_blank">@DrWillN</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/30/2018</p></td>
+                      <td align="center"><p class="table_results">09:16:54</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/TeamPrepster/status/1057199655912726528" target="_blank">RT @kristianmj: @timyvesmieke I think it&#39;s going to be good. We&#39;ve got @DrWillN of @TeamPrepster there, Elias Magnild from Transpolitisk Fo…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/643791315176681473/JhdUz7Qe.png" target="_blank"><img src="https://pbs.twimg.com/profile_images/643791315176681473/JhdUz7Qe.png" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/TeamPrepster" target="_blank">@TeamPrepster</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/30/2018</p></td>
+                      <td align="center"><p class="table_results">09:15:04</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/kristianmj/status/1057199194191077376" target="_blank">@timyvesmieke I think it&#39;s going to be good. We&#39;ve got @DrWillN of @TeamPrepster there, Elias Magnild from Transpol… https://t.co/Ldrmb9fLtP</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/973163184466153473/8fCjXGVm.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/973163184466153473/8fCjXGVm.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/kristianmj" target="_blank">@kristianmj</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/30/2018</p></td>
+                      <td align="center"><p class="table_results">06:22:32</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/sofi_cifuentes/status/1057155775892783105" target="_blank">RT @autocorrects: when you&#39;re full on laughing with someone and you both keep adding things which makes it funnier and you can barely breat…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1043636659227635716/GAf5ge3q.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1043636659227635716/GAf5ge3q.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/sofi_cifuentes" target="_blank">@sofi_cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/30/2018</p></td>
+                      <td align="center"><p class="table_results">03:22:06</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1057110368437391360" target="_blank">RT @Puff_Zaddy_: @silenthooper When you can’t pretend to not see John Cena and gotta take Undertaker to the undertaker. https://t.co/ijOb9A…</a></td>
+                                                                  <td align="center"><p class="table_results">
+                          <a href="http://pbs.twimg.com/tweet_video_thumb/Dqfa-bJXcAA2bGu.jpg" target="_blank"><img src="http://pbs.twimg.com/tweet_video_thumb/Dqfa-bJXcAA2bGu.jpg" width=100 height=100 border="1"></a>
+                                                                  </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/30/2018</p></td>
+                      <td align="center"><p class="table_results">02:53:04</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1057103059363475457" target="_blank">RT @saraialejandraa: Damn you ever doing homework and wonder why you’re going to college at all</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/30/2018</p></td>
+                      <td align="center"><p class="table_results">00:32:45</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/itiel_cifuentes/status/1057067748289863680" target="_blank">I asked my sister what my biggest flaw is and she responded with 
+
+“I know you can be nice but you don’t do it often.”</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1047173419249405957/c9M6adLJ.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1047173419249405957/c9M6adLJ.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/itiel_cifuentes" target="_blank">@itiel_cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/29/2018</p></td>
+                      <td align="center"><p class="table_results">17:09:47</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1056956271310659586" target="_blank">RT @mickeyrae2499: Saw this on VSCO and it needed to be seen on twitter too https://t.co/c7V2kvrHQ7</a></td>
+                                                                  <td align="center"><p class="table_results">
+                          <a href="http://pbs.twimg.com/media/DqZPbQfXQAAqJVU.jpg" target="_blank"><img src="http://pbs.twimg.com/media/DqZPbQfXQAAqJVU.jpg" width=100 height=100 border="1"></a>
+                                                                  </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/29/2018</p></td>
+                      <td align="center"><p class="table_results">16:20:33</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1056943884767584261" target="_blank">RT @kberg323: Whoever broke into my car managed to miss a whole ass iPhone 6, a speaker &amp;amp; professional camera but instead decided to take a…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/29/2018</p></td>
+                      <td align="center"><p class="table_results">16:18:32</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/UMassHFA/status/1056943375604244480" target="_blank">RT @umasstheater: To ease you into your weekend, please enjoy Caucasity&#39;s Greatest Hits, a Snowflakes playlist courtesy of sound designer G…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1054391232703746048/gMCd_73r.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1054391232703746048/gMCd_73r.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/UMassHFA" target="_blank">@UMassHFA</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/29/2018</p></td>
+                      <td align="center"><p class="table_results">14:45:22</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/rpueducation/status/1056919930384211968" target="_blank">RT @AlvordUnified: An amazing surprise for 20 of our Norte Vista High School students and Catalina Cifuentes from @RCOE College and Career…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1025088926678011904/NCjJ1HDw.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1025088926678011904/NCjJ1HDw.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/rpueducation" target="_blank">@rpueducation</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/29/2018</p></td>
+                      <td align="center"><p class="table_results">14:28:47</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Cifuentes_018/status/1056915756531752960" target="_blank">RT @esa: Air quality is a serious environmental health problem, so the @CopernicusEU #Sentinel5 P satellite maps air pollutants around the…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Lite</p></td>
+          <td align="center"><p class="table_results"><a href="https://abs.twimg.com/sticky/default_profile_images/default_profile.png" target="_blank"><img src="https://abs.twimg.com/sticky/default_profile_images/default_profile.png" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Cifuentes_018" target="_blank">@Cifuentes_018</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/29/2018</p></td>
+                      <td align="center"><p class="table_results">03:00:16</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1056742487006593024" target="_blank">RT @chuuzus: We always talk about fairy godmother&#39;s “I need a Hero,” in Shrek 2 is a bop, and always forget that Donkey and Puss in Boots g…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/28/2018</p></td>
+                      <td align="center"><p class="table_results">22:56:22</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/irin_cifuentes/status/1056681104583864321" target="_blank">RT @carng19: When you’re at a party/festival/concert and you remember that you have exams next week. https://t.co/lcz6Y2tCd6</a></td>
+                                                                  <td align="center"><p class="table_results">
+                          <a href="http://pbs.twimg.com/media/DqhGxPtW4AAzZBS.jpg" target="_blank"><img src="http://pbs.twimg.com/media/DqhGxPtW4AAzZBS.jpg" width=100 height=100 border="1"></a>
+                                                                  </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1053517631691636736/SvFRWrYo.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1053517631691636736/SvFRWrYo.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/irin_cifuentes" target="_blank">@irin_cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/28/2018</p></td>
+                      <td align="center"><p class="table_results">16:56:31</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/cifuentes_edy/status/1056590548654530565" target="_blank">Ramos is garbage and overrated</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/755646708776857600/Ms9E2Lc4.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/755646708776857600/Ms9E2Lc4.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/cifuentes_edy" target="_blank">@cifuentes_edy</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/28/2018</p></td>
+                      <td align="center"><p class="table_results">14:55:38</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/aPantojo/status/1056560126709129217" target="_blank">RT @poliver_: cristina cifuentes and angela from &#39;the office&#39; are actually the same person: a conspiracy theory thread https://t.co/192pYtx…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1043443229268606976/U3jZBBUj.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1043443229268606976/U3jZBBUj.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/aPantojo" target="_blank">@aPantojo</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/28/2018</p></td>
+                      <td align="center"><p class="table_results">14:40:51</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/poliver_/status/1056556406789341185" target="_blank">cristina cifuentes and angela from &#39;the office&#39; are actually the same person: a conspiracy theory thread https://t.co/192pYtx6hP</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1047602996920639493/kCyxquKg.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1047602996920639493/kCyxquKg.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/poliver_" target="_blank">@poliver_</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/28/2018</p></td>
+                      <td align="center"><p class="table_results">06:02:30</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/karla_cifuentes/status/1056425958331346945" target="_blank">RT @dansmelllly: Awkward was a GREAT show and super UNDERRATED https://t.co/HWiD1w3NFL</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1024948526575497216/JtOnCCIe.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1024948526575497216/JtOnCCIe.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/karla_cifuentes" target="_blank">@karla_cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/28/2018</p></td>
+                      <td align="center"><p class="table_results">05:07:20</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/SRGB39/status/1056412074941669381" target="_blank">RT @AlvordUnified: An amazing surprise for 20 of our Norte Vista High School students and Catalina Cifuentes from @RCOE College and Career…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1052766057088278529/n6E_Ep5i.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1052766057088278529/n6E_Ep5i.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/SRGB39" target="_blank">@SRGB39</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/28/2018</p></td>
+                      <td align="center"><p class="table_results">05:01:57</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/riversidecagov/status/1056410718197571584" target="_blank">RT @AlvordUnified: An amazing surprise for 20 of our Norte Vista High School students and Catalina Cifuentes from @RCOE College and Career…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/907737942302515200/K-Xi_qOT.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/907737942302515200/K-Xi_qOT.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/riversidecagov" target="_blank">@riversidecagov</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/28/2018</p></td>
+                      <td align="center"><p class="table_results">04:37:45</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/NVHSCounselors/status/1056404632040222720" target="_blank">RT @AlvordUnified: An amazing surprise for 20 of our Norte Vista High School students and Catalina Cifuentes from @RCOE College and Career…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/893629846483386368/0rVVVzeR.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/893629846483386368/0rVVVzeR.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/NVHSCounselors" target="_blank">@NVHSCounselors</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/28/2018</p></td>
+                      <td align="center"><p class="table_results">01:51:59</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/blankpagesANtea/status/1056362912770674689" target="_blank">So happy for the beautiful couple. Huge congrats Brendon Cifuentes and Laura Ellen Lissel. Here’s to the rest of yo… https://t.co/0TNsH3yi0g</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Facebook</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/927041600798126081/hvVgGzBG.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/927041600798126081/hvVgGzBG.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/blankpagesANtea" target="_blank">@blankpagesANtea</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/27/2018</p></td>
+                      <td align="center"><p class="table_results">18:48:43</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/de_noriega/status/1056256394008150016" target="_blank">#InternationalConference #MariusPetipa
+The ballets of Francisco Soler and Rovirosa and Ricardo Moragas in nineteent… https://t.co/XFfyC8GQMO</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/461943369359310848/Jw05BWLi.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/461943369359310848/Jw05BWLi.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/de_noriega" target="_blank">@de_noriega</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/27/2018</p></td>
+                      <td align="center"><p class="table_results">18:41:47</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/AlvordUnified/status/1056254648078688256" target="_blank">An amazing surprise for 20 of our Norte Vista High School students and Catalina Cifuentes from @RCOE College and Ca… https://t.co/LFqRlzGFkt</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/555779296602513408/lvqkvoiS.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/555779296602513408/lvqkvoiS.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/AlvordUnified" target="_blank">@AlvordUnified</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/27/2018</p></td>
+                      <td align="center"><p class="table_results">04:01:26</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/cifuentes_alejo/status/1056033104446545921" target="_blank">RT @jadande: What makes it even better is that KD dropped 25 in the 4th, Boogie got ejected from the bench and THIS was on their minds afte…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/929039665805643776/47D0CFvk.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/929039665805643776/47D0CFvk.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/cifuentes_alejo" target="_blank">@cifuentes_alejo</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/27/2018</p></td>
+                      <td align="center"><p class="table_results">04:00:05</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/VanityScience/status/1056032763063816193" target="_blank">Cifuentes-IdeaInventionCo law, named after @CifuentesArte and @IdeaInventionCo (computer science)</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Vanity Science</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/414587358302842880/fa8bd1cp.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/414587358302842880/fa8bd1cp.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/VanityScience" target="_blank">@VanityScience</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/27/2018</p></td>
+                      <td align="center"><p class="table_results">02:05:27</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/skippymelrose/status/1056003913982373888" target="_blank">RT @AWoolman_SN: David Cifuentes takes a 29-yard stroll into the end zone and the Crusaders have a 26-0 lead with 5:27 to go in the half</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://abs.twimg.com/sticky/default_profile_images/default_profile.png" target="_blank"><img src="https://abs.twimg.com/sticky/default_profile_images/default_profile.png" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/skippymelrose" target="_blank">@skippymelrose</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/27/2018</p></td>
+                      <td align="center"><p class="table_results">01:50:26</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/keinagay/status/1056000135417733120" target="_blank">CARLOS CIFUENTES IS A CINNAMON ROLL AND NEEDS A BLANKET AND SOUP AND KITTENS AND LOVE</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1055842576140591105/Jga-iFwd.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1055842576140591105/Jga-iFwd.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/keinagay" target="_blank">@keinagay</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/26/2018</p></td>
+                      <td align="center"><p class="table_results">23:49:03</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/AWoolman_SN/status/1055969588691828742" target="_blank">David Cifuentes takes a 29-yard stroll into the end zone and the Crusaders have a 26-0 lead with 5:27 to go in the half</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1057136095115264000/V7gYm8Z3.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1057136095115264000/V7gYm8Z3.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/AWoolman_SN" target="_blank">@AWoolman_SN</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/26/2018</p></td>
+                      <td align="center"><p class="table_results">17:50:33</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/adri_cifuentes_/status/1055879369128923137" target="_blank">RT @chrissyteigen: JOHN SAYS F HALLOWEEN, F THANKSGIVING, IT&#39;S CHRISTMASTIME AND I AGREE https://t.co/kKotlUh87b</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/651167615436521472/EAZiezmy.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/651167615436521472/EAZiezmy.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/adri_cifuentes_" target="_blank">@adri_cifuentes_</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/26/2018</p></td>
+                      <td align="center"><p class="table_results">16:57:44</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/helenadetroya72/status/1055866078801420289" target="_blank">@reguerasilva1 Y sí q se aceptaron esa clase de pruebas en contra de Cristina Cifuentes, y en ellas está basada su… https://t.co/Vy4O7B4zSb</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/952544185910988800/nZqNUrxl.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/952544185910988800/nZqNUrxl.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/helenadetroya72" target="_blank">@helenadetroya72</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/26/2018</p></td>
+                      <td align="center"><p class="table_results">16:53:46</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/umasstheater/status/1055865077671387136" target="_blank">To ease you into your weekend, please enjoy Caucasity&#39;s Greatest Hits, a Snowflakes playlist courtesy of sound desi… https://t.co/BeoOrMZfUX</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Facebook</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1001842574729072640/PbejOyqk.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1001842574729072640/PbejOyqk.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/umasstheater" target="_blank">@umasstheater</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/26/2018</p></td>
+                      <td align="center"><p class="table_results">12:54:04</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/RHRiverside/status/1055804756642291717" target="_blank">RT @LupitaCAlcala: So proud of Commissioner Cifuentes @CifuentesCat and @RCOE for this outstanding recognition by @MichelleObama for their…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1010651668063514624/6UlPMufM.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1010651668063514624/6UlPMufM.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/RHRiverside" target="_blank">@RHRiverside</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/26/2018</p></td>
+                      <td align="center"><p class="table_results">05:12:57</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/LupitaCAlcala/status/1055688713458475008" target="_blank">So proud of Commissioner Cifuentes @CifuentesCat and @RCOE for this outstanding recognition by @MichelleObama for t… https://t.co/mp4EKsJR04</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/924361783841660929/9i2rcH7f.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/924361783841660929/9i2rcH7f.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/LupitaCAlcala" target="_blank">@LupitaCAlcala</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/25/2018</p></td>
+                      <td align="center"><p class="table_results">22:25:28</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1055586164688805888" target="_blank">RT @ChildrensTheOne: Our @WWE patient superstars are sending @WWERomanReigns love &amp;amp; support after he revealed his cancer returned. We&#39;re in…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/25/2018</p></td>
+                      <td align="center"><p class="table_results">22:21:11</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1055585086119264256" target="_blank">RT @CodyRhodes: Dude is one of the biggest stars in the world. Went last at 4 manias...but much more importantly, a father and a husband. I…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/25/2018</p></td>
+                      <td align="center"><p class="table_results">19:58:37</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/ANAALThani/status/1055549208441376769" target="_blank">RT @MalagaCF_en: MCFNews| We said the team is enjoying a day off today... not these two though! @cifuma and @alexmula7 aren&#39;t stopping unti…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/895585508796940288/VwvJAb2_.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/895585508796940288/VwvJAb2_.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/ANAALThani" target="_blank">@ANAALThani</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/25/2018</p></td>
+                      <td align="center"><p class="table_results">19:33:29</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/vanschneider/status/1055542883225427968" target="_blank">Two nice and clean portfolios in the https://t.co/pD6Xog3B9J Showcase this week. Welcome to the family, Nolwen Cifu… https://t.co/TmCC2DSUMF</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1050476118166331392/_LC1Qv6o.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1050476118166331392/_LC1Qv6o.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/vanschneider" target="_blank">@vanschneider</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/25/2018</p></td>
+                      <td align="center"><p class="table_results">18:10:05</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/joelthedoc/status/1055521898271006721" target="_blank">RT @HastoRay: Tricia Cifuentes, Dawson Law Firm. https://t.co/XT4D7NSjvN Tricia&#39;s grasp of day-to-day needs in #business make her and the e…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/669490858278961152/-N5sctSo.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/669490858278961152/-N5sctSo.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/joelthedoc" target="_blank">@joelthedoc</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/25/2018</p></td>
+                      <td align="center"><p class="table_results">18:09:16</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/HastoRay/status/1055521690602663936" target="_blank">Tricia Cifuentes, Dawson Law Firm. https://t.co/XT4D7NSjvN Tricia&#39;s grasp of day-to-day needs in #business make her… https://t.co/3hsDfhbo8V</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/497709971035783169/20nCtMaI.jpeg" target="_blank"><img src="https://pbs.twimg.com/profile_images/497709971035783169/20nCtMaI.jpeg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/HastoRay" target="_blank">@HastoRay</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/25/2018</p></td>
+                      <td align="center"><p class="table_results">12:48:47</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/MalagaCF_en/status/1055441041027973120" target="_blank">MCFNews| We said the team is enjoying a day off today... not these two though! @cifuma and @alexmula7 aren&#39;t stoppi… https://t.co/ulkcP9gRhM</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter Web Client</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1053604221206085632/gadEYvUG.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1053604221206085632/gadEYvUG.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/MalagaCF_en" target="_blank">@MalagaCF_en</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/25/2018</p></td>
+                      <td align="center"><p class="table_results">01:13:03</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/chris_cifuentes/status/1055265951535558656" target="_blank">RT @JMEnglishLady: Homecoming shirts are being delivered during 2nd Block. If you ordered one and don&#39;t get it by the end of 2nd Block, sto…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1051295978295369728/OUrb7L5X.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1051295978295369728/OUrb7L5X.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/chris_cifuentes" target="_blank">@chris_cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/24/2018</p></td>
+                      <td align="center"><p class="table_results">23:08:59</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/_cifuentes_/status/1055234728360534017" target="_blank">RT @LalaJada: How do ppl with no jobs survive in college??? I take one week off work and I’m in POVERTY.</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1010589808974917632/4QBllalp.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1010589808974917632/4QBllalp.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/_cifuentes_" target="_blank">@_cifuentes_</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/24/2018</p></td>
+                      <td align="center"><p class="table_results">22:38:01</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes/status/1055226937453494272" target="_blank">RT @OkigboXL: &#34;The human centipede&#34; is a movie that really didn&#39;t need to exist. Can&#39;t believe I really sat and watched the whole thing too.</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1029848139824541698/xbzCyWEG.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/C_E_Cifuentes" target="_blank">@C_E_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/24/2018</p></td>
+                      <td align="center"><p class="table_results">20:19:17</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Steff_Cifuentes/status/1055192024696025088" target="_blank">RT @FOXSoccer: The goat and his kid 🐐 https://t.co/Quot0ePUug</a></td>
+                                                                  <td align="center"><p class="table_results">
+                          <a href="http://pbs.twimg.com/media/DqS7VHqVsAA7_Qy.jpg" target="_blank"><img src="http://pbs.twimg.com/media/DqS7VHqVsAA7_Qy.jpg" width=100 height=100 border="1"></a>
+                                                                  </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1053520880137977856/Xm8uu3K8.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1053520880137977856/Xm8uu3K8.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Steff_Cifuentes" target="_blank">@Steff_Cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/24/2018</p></td>
+                      <td align="center"><p class="table_results">11:28:54</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/cifuentes_trans/status/1055058548269428736" target="_blank">#BarcelonaTranslators at our monthly coworking event.
+
+Thanks to @CRECbcn for hosting us EVERY MONTH in their aweso… https://t.co/OZM4LnJNtn</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/844237307905490944/86M02Eez.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/844237307905490944/86M02Eez.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/cifuentes_trans" target="_blank">@cifuentes_trans</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/24/2018</p></td>
+                      <td align="center"><p class="table_results">07:14:08</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Koukyou_Zen/status/1054994433094139905" target="_blank">RT @nutopiaagency: Savior from Superman Vol. #38. Art by @SergioDavila007 (pencil) and Vicente Cifuentes (ink) #savior #villain #supervilla…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1091155732/Logo_grande.png" target="_blank"><img src="https://pbs.twimg.com/profile_images/1091155732/Logo_grande.png" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Koukyou_Zen" target="_blank">@Koukyou_Zen</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/24/2018</p></td>
+                      <td align="center"><p class="table_results">06:10:53</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/sofi_cifuentes/status/1054978516691886080" target="_blank">RT @dog_rates: This is Riley. Every morning he hangs over the wall and drops his toy so the nearest passerby is forced to play with him. It…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/1043636659227635716/GAf5ge3q.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/1043636659227635716/GAf5ge3q.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/sofi_cifuentes" target="_blank">@sofi_cifuentes</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/24/2018</p></td>
+                      <td align="center"><p class="table_results">01:29:36</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/RedBirdLetters/status/1054907731117830144" target="_blank">RT @DynamiteComics: XENA #9
+
+Gabrielle and Xena mingle among admirers, but some &#34;fans&#34; can take things a little too seriously...
+
+Pick up a…</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/892725469119991808/AX47yup4.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/892725469119991808/AX47yup4.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/RedBirdLetters" target="_blank">@RedBirdLetters</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/24/2018</p></td>
+                      <td align="center"><p class="table_results">01:22:32</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/Reyino95/status/1054905952707723264" target="_blank">Es muy aburrido escuchar el  rock and gol de @Radioacktiva_  que narren sin los nombres de los respectivos jugadore… https://t.co/yyTPgWQqhb</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for iPhone</p></td>
+          <td align="center"><p class="table_results"><a href="https://abs.twimg.com/sticky/default_profile_images/default_profile.png" target="_blank"><img src="https://abs.twimg.com/sticky/default_profile_images/default_profile.png" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/Reyino95" target="_blank">@Reyino95</a></p></td>
+                    </tr>
+                            <tr>
+                      <td align="center"><p class="table_results">10/24/2018</p></td>
+                      <td align="center"><p class="table_results">01:04:08</p></td>
+                      <td colspan=5><p class="table_results"><a href="https://twitter.com/WilsonOHA/status/1054901320602267648" target="_blank">@Rafa_Cifuentes Crack qué pasó que no está en el rock AND gol?</a></td>
+                                            <td align="center"><p class="table_results">
+                          <img src="img/no-image-icon.gif" target="_blank" width="100" height="100" border="1">
+                                                                                        </p></td>
+
+          <td colspan=2><p class="table_results">Twitter for Android</p></td>
+          <td align="center"><p class="table_results"><a href="https://pbs.twimg.com/profile_images/825682825487728640/-NWGiUN1.jpg" target="_blank"><img src="https://pbs.twimg.com/profile_images/825682825487728640/-NWGiUN1.jpg" width=100 height=100 border="1"></a></p></td>
+          <td align="center"><p class="table_results"><a href="https://twitter.com/WilsonOHA" target="_blank">@WilsonOHA</a></p></td>
+                    </tr>
+                                          </table>
+              <p class="results">Total: 54 results.</p>
+        
+
+                <h2>Search by coordinates</h2>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                <br><br>
+                
+		    <h2>Geolocated Users</h2>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                <br><br>
+                		
+		<h2>Tagged Users</h2>
+                <table class="client_app" width="970" border="0">
+                    <tr bgcolor="1c75bc">
+                      <td height="25" align="center" colspan="2"><p><font color="white">TAGGED USER</font></p></td>
+                      <td align="center" colspan="2"><p><font color="white">TAGGED BY</font></p></td>
+                      <td align="center"><p><font color="white">DATE</font></p></td>
+                      <td align="center"><p><font color="white">TIME</font></p></td>
+                      <td align="center"><p><font color="white">MEDIA</font></p></td>
+                      <td align="center"><p><font color="white">TWEET</font></p></td>
+                      <td align="center" colspan="2"><p><font color="white">COORDINATES</font></p></td>
+                    </tr>
+                                         
+                                  </table>
+              <p class="results">Total: 0 results.</p>
+                  
+            </div><!--#end search table--> 
+
+
+            <div id="conversations">
+                <a id="conversation" name="conversation"></a>
+                <h3>User Conversations</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                                <table class="client_app" width="970" border="0">
+                    <tr>
+                      <td>Unsolicited Function</td>
+                    </tr>
+                </table>
+                            </div><!--#end conversations-->
+            <p class="results"><br></p>
+
+
+        </div><!--#end datos-->
+        <div id="footer">
+        <p class="footer">www.vicenteaguileradiaz.com</p>
+        <p class="footer_link"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="CC" alt="Licencia de Creative Commons" border="0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span class="footer_link" xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><b>Tinfoleak</b></span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Vicente Aguilera Díaz</span> is licensed under a <a class="footer_link" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional License</a>.</p>
+        </div>
+</div>  <!--#end contenido-->
+</body>
+</html>

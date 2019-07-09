@@ -1,0 +1,35 @@
+,TINFOLEAK Report
+,Vicente Aguilera Díaz
+,@VAguileraDiaz
+,www.isecauditors.com
+""
+,>>> Date:,2018-06-06
+,>>> Time:,13:13
+,>>> Analyzed user:,eldiarioes
+,>>> Information:,Followers
+""
+#,ID,USERNAME,SCREEN NAME,DESCRIPTION,PROFILE IMAGE URL,PROFILE BANNER URL,CREATED AT,LOCATION,TIME_ZONE,GEO ENABLED,FOLLOWERS COUNT,FRIENDS COUNT,STATUSES COUNT,LISTED COUNT,FAVOURITES COUNT,USER VERIFIED,USER LANG
+1,414186242,Panza Verde,lapanzaverde,,http://pbs.twimg.com/profile_images/1653953248/virgin-suicides-06_1__normal.jpg,http://abs.twimg.com/images/themes/theme1/bg.png,2011-11-16 18:54:26,Barcelona,,False,10,54,0,0,5,False,es
+2,998156892785520640,Sobek,SobekGod95,Solo soy una lagartija con corona y también ingeniero químico. Slytherin 🐍,http://pbs.twimg.com/profile_images/998157550502559747/ZIr38ym7_normal.jpg,,2018-05-20 11:02:02,"Extremadura, España",,False,11,57,94,0,51,False,en
+3,4084718619,Chani Morales Vega,gemelos03,,http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png,http://abs.twimg.com/images/themes/theme1/bg.png,2015-10-31 19:51:24,,,True,9,46,30,0,1559,False,es
+4,869619897352978432,FLASHI,theaaronflash,Nací un domingo en mitad de un viaje temporal.,http://pbs.twimg.com/profile_images/1004263673521721344/v7SQOHrO_normal.jpg,http://abs.twimg.com/images/themes/theme1/bg.png,2017-05-30 18:21:55,???????,,False,7,78,10,0,64,False,es
+5,381032366,Lionheart,95Moraleda,"Y viendo que esta vida no es larga, seremos niños detrás de las barbas.",http://pbs.twimg.com/profile_images/928342704609726466/Va376mOC_normal.jpg,http://abs.twimg.com/images/themes/theme9/bg.gif,2011-09-27 16:48:47,,,False,180,175,4821,0,1028,False,es
+6,998930765953032192,Regor Fara,regorfara,Bow ties are cool 🤵🏼,http://pbs.twimg.com/profile_images/1000849901494915073/xU7syuKN_normal.jpg,http://abs.twimg.com/images/themes/theme1/bg.png,2018-05-22 14:17:08,"England, United Kingdom",,True,36,308,230,0,648,False,es
+7,103531572,Whatsername~,Leti17BJA,¿Dónde están los besos que te debo?                                     #17 Whatsername                                     Anaerae ❤,http://pbs.twimg.com/profile_images/959901232461766656/Cu2Pnr9O_normal.jpg,http://abs.twimg.com/images/themes/theme10/bg.gif,2010-01-10 09:46:20,Nueva Zelanda,,True,353,633,8257,6,8388,False,es
+8,966146444599152642,Daphne Caruana G.,CaruanaDaphne,"Periodista Política desde mis inicios.
+Ahora en Latinoamérica.",http://pbs.twimg.com/profile_images/966148763264929794/TQL89pqy_normal.jpg,,2018-02-21 03:03:57,,,False,135,1398,1232,1,739,False,es
+9,188384552,m.luque disseny,mluque_disseny,,http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png,http://abs.twimg.com/images/themes/theme17/bg.gif,2010-09-08 16:15:44,"Barcelona, España",,True,13,5,5,0,0,False,es
+10,1003310270024966144,Alejandro,AlejandroAlmu,,http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png,,2018-06-03 16:19:43,,,False,0,13,0,0,0,False,es
+11,386440487,ROM🐑,ROMthesheep,"Un señor.
+Me gusta practicamente todo, sobretodo preguntar chorradas que te hagan expulsar humito por las orejas.
+
+Venci al emperador de todos los males.",http://pbs.twimg.com/profile_images/879186103521226752/YLqpUdNW_normal.jpg,http://abs.twimg.com/images/themes/theme14/bg.gif,2011-10-07 09:05:40,una cama con muchas mantas,,False,230,237,11224,5,954,False,es
+12,2577154580,Sr_Kared,sr_kared,Pues hago cosas y eso,http://pbs.twimg.com/profile_images/1003583461981122560/S157wXMI_normal.jpg,http://abs.twimg.com/images/themes/theme1/bg.png,2014-06-19 16:43:11,España,,True,83,133,1432,0,3194,False,es
+13,1527615050,Emiliano de Lucas,Flordedondiego,"Pienso, y callo, entremedias se cuela, a veces, algún poema.",http://pbs.twimg.com/profile_images/468091849706450944/mFWolV8M_normal.jpeg,http://abs.twimg.com/images/themes/theme1/bg.png,2013-06-18 12:12:52,España,,True,152,352,889,1,23,False,es
+14,213614474,Carlosmanuel,CarlosMaRoMa,"Anti los que dicen que son anti-algo, Instagram: Carlosmanuel_43",http://pbs.twimg.com/profile_images/683729777824534529/ONOPhLYY_normal.jpg,http://abs.twimg.com/images/themes/theme10/bg.gif,2010-11-09 10:59:16,palma de malllorca,,False,85,551,1475,1,1208,False,es
+15,1004310394465382400,carlos,amigocarlos414,,http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png,,2018-06-06 10:33:52,,,False,3,641,0,0,0,False,en
+16,971766017457381377,Cardelina. Y Prau!!,Cardelina_YPrau,,http://pbs.twimg.com/profile_images/1004310605669511168/T62pKIds_normal.jpg,,2018-03-08 15:14:07,,,False,1,89,1,0,3,False,es
+17,1003973925217492998,DonUnica,DonUnica,,http://pbs.twimg.com/profile_images/1003974819942227969/kFS_BXCL_normal.jpg,,2018-06-05 12:16:51,,,False,0,16,0,0,0,False,en
+18,2502522472,EME,martaefese,🌙🌙🌙🌙🌙,http://pbs.twimg.com/profile_images/996778629668528128/2CF2Tjjp_normal.jpg,http://abs.twimg.com/images/themes/theme1/bg.png,2014-04-22 20:02:01,,,False,216,244,3271,0,2424,False,es
+19,890532746,Lucía Alonso,Tomokko1,,http://pbs.twimg.com/profile_images/519835602099773440/gEeQbhzk_normal.jpeg,http://abs.twimg.com/images/themes/theme1/bg.png,2012-10-19 08:04:59,,,False,33,100,673,1,55,False,es
+20,957355370,Yolanda Serrano,yoliyarchy,,http://pbs.twimg.com/profile_images/683036645478797316/13fvdOeE_normal.jpg,http://abs.twimg.com/images/themes/theme1/bg.png,2012-11-19 12:39:53,,,False,60,360,244,1,229,False,es
