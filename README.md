@@ -1,4 +1,4 @@
-# Naxos Key Exchange
+# OSINT (Shodan, Tinfoleak & Dorks)
 
 ## Contents
 1. [Project description](#project-description)
