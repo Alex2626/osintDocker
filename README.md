@@ -49,6 +49,25 @@ You have two options to run this app: building the Docker image using the Docker
 		* 2.2. Search the project "asanchezdev/osint-automatization".
 		* 2.3. Pull the image.
 		* 2.4. Follow the step 1.2. 
+		
+## 3. Notes
+
+	If you have problems with phantomjs in the Dorks module try it:
+		apt-get update
+		apt-get install -y build-essential chrpath libssl-dev libxft-dev
+		apt-get install -y libfreetype6 libfreetype6-dev
+		apt-get install -y libfontconfig1 libfontconfig1-dev
+		apt-get install -y wget
+		cd ~
+		export PHANTOM_JS="phantomjs-1.9.8-linux-x86_64"
+		wget https://bitbucket.org/ariya/phantomjs/downloads/$PHANTOM_JS.tar.bz2
+		mv $PHANTOM_JS.tar.bz2 /usr/local/share/
+		cd /usr/local/share/
+		tar xvjf $PHANTOM_JS.tar.bz2
+		ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/local/share/phantomjs
+		ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/local/bin/phantomjs
+		ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/bin/phantomjs
+
 
 
 
