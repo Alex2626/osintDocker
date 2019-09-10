@@ -38,10 +38,10 @@ You have two options to run this app: building the Docker image using the Docker
 
 ## 1. Using DockerFile
 
-* **1.1.** Build the Docker image using: docker build -t xxxxx/xxxx:tag .
-* **1.2.** Run the image: docker run –t –i –-name  xxxxx/xxxxxx
-    * **1.2.1.** If you have modified the conf files: docker exec -i -t osint /osint-auto/scriptMaster.py
-    * **1.2.2.** If you haven´t modified the conf files you can open the container with a shell, and modify it: docker exec –t –i –-name xxxxx/xxxxx:tag /bin/bash
+* **1.1.** Build the Docker image using: **"docker build -t xxxxx/xxxx:tag ."**
+* **1.2.** Run the image: **"docker run –t –i –-name  xxxxx/xxxxxx"**
+    * **1.2.1.** If you have modified the conf files: **"docker exec -i -t osint /osint-auto/scriptMaster.py"**
+    * **1.2.2.** If you haven´t modified the conf files you can open the container with a shell, and modify it: **"docker exec –t –i –-name xxxxx/xxxxx:tag /bin/bash"**
 				   And you will be in the container and execute the app from here.
 
 ## 2. Using DockerHub
@@ -53,7 +53,7 @@ You have two options to run this app: building the Docker image using the Docker
 ## 3. Notes
 
 	If you have problems with phantomjs in the Dorks module try it:
-		apt-get update
+		"apt-get update
 		apt-get install -y build-essential chrpath libssl-dev libxft-dev
 		apt-get install -y libfreetype6 libfreetype6-dev
 		apt-get install -y libfontconfig1 libfontconfig1-dev
@@ -66,7 +66,7 @@ You have two options to run this app: building the Docker image using the Docker
 		tar xvjf $PHANTOM_JS.tar.bz2
 		ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/local/share/phantomjs
 		ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/local/bin/phantomjs
-		ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/bin/phantomjs
+		ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/bin/phantomjs"
 
 
 
