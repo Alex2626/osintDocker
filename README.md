@@ -25,9 +25,9 @@ This project is intended to work on any plataform (Windows, Mac or Linux) and fo
 
 The modules using differents forms to make it work:
 
-	* ## Tinfoleak: This module use the 2.1 version from this software because it´s the version that allows to run it from a CLI.
-	* ## Shodan:    Using the CLI who offers Shodan for Linux distro, we install it before of run the app.
-	* ## Dorks:     With the project https://github.com/USSCltd/dorks we obtain the links to the data that I want to obtain about the objetive. Using phanthomjs we call the dorks.js
+* **Tinfoleak**: This module use the 2.1 version from this software because it´s the version that allows to run it from a CLI.
+* **Shodan**:    Using the CLI who offers Shodan for Linux distro, we install it before of run the app.
+* **Dorks**:     With the project https://github.com/USSCltd/dorks we obtain the links to the data that I want to obtain about the objetive. Using phanthomjs we call the dorks.js
 
 Every module have their conf file where it´s posible to change the objetive, queries, etc. You can change it before or after build and run the Docker image/container.
 
@@ -40,15 +40,15 @@ You have two options to run this app: building the Docker image using the Docker
 
 * 1.1. Build the Docker image using: docker build -t xxxxx/xxxx:tag .
 * 1.2. Run the image: docker run –t –i –-name  xxxxx/xxxxxx
- * 1.2.1. If you have modified the conf files: docker exec -i -t osint /osint-auto/scriptMaster.py
- * 1.2.2. If you haven´t modified the conf files you can open the container with a shell, and modify it: docker exec –t –i –-name xxxxx/xxxxx:tag /bin/bash
+    * 1.2.1. If you have modified the conf files: docker exec -i -t osint /osint-auto/scriptMaster.py
+    * 1.2.2. If you haven´t modified the conf files you can open the container with a shell, and modify it: docker exec –t –i –-name xxxxx/xxxxx:tag /bin/bash
 				   And you will be in the container and execute the app from here.
 
 ## 2. Using DockerHub
-		* 2.1. Login or signin.
-		* 2.2. Search the project "asanchezdev/osint-automatization".
-		* 2.3. Pull the image.
-		* 2.4. Follow the step 1.2. 
+* 2.1. Login or signin.
+* 2.2. Search the project "asanchezdev/osint-automatization".
+* 2.3. Pull the image.
+* 2.4. Follow the step 1.2. 
 		
 ## 3. Notes
 
