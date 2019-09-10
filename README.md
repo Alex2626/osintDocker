@@ -14,9 +14,9 @@ This project use OSINT techniques and tools to obtain information from open sour
 
 In this project has been used three tools or projects to achive our goals:
 
-	* ## Tinfoleak: With this project we can search in twitter about a profile, hastagh or words in tweets -> https://github.com/vaguileradiaz/tinfoleak
-	* ## Shodan: Used by the app to obtain the devices connected to Internet from our objetive and could make our organization/company vulnerable. We use queries with key words about deprecated technologies, open ports... -> https://www.shodan.io/
-	* ## Dorks: Google and Bing are the search engines selected to find documents, webs or pass using the powerful of DORKS. To use the latest DORKS we refresh our list using Google Hacking Data Base, in this site we can find the latest dorks for the latest vulnerabilities. -> https://www.exploit-db.com/google-hacking-database && https://github.com/USSCltd/dorks
+* Tinfoleak: With this project we can search in twitter about a profile, hastagh or words in tweets -> https://github.com/vaguileradiaz/tinfoleak
+* Shodan: Used by the app to obtain the devices connected to Internet from our objetive and could make our organization/company vulnerable. We use queries with key words about deprecated technologies, open ports... -> https://www.shodan.io/
+* Dorks: Google and Bing are the search engines selected to find documents, webs or pass using the powerful of DORKS. To use the latest DORKS we refresh our list using Google Hacking Data Base, in this site we can find the latest dorks for the latest vulnerabilities. -> https://www.exploit-db.com/google-hacking-database && https://github.com/USSCltd/dorks
 
 # Features
 
