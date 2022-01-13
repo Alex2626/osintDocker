@@ -3,4 +3,4 @@ oauth2==1.9.0.post1
 tweepy==3.6.0
 ExifRead==2.1.2
 pyOpenSSL==18.0.0
-Pillow==5.3.0
+Pillow==9.0.0
