@@ -4,4 +4,4 @@ tweepy==3.6.0
 shodan==1.7.7
 ExifRead==2.1.2
 pyOpenSSL==18.0.0
-Pillow==5.3.0
+Pillow==9.0.1
